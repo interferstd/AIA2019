@@ -1,2 +1,2 @@
 @echo off
-git push
+git push AIA2019
