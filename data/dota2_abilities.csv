@@ -1,0 +1,1916 @@
+ability_id,dname,behavior,desc
+5003,antimage_mana_break,['Passive'],Burns an opponent's mana on each attack.  Mana Break deals 50% of the mana burned as damage to the target.
+5004,antimage_blink,['Point Target'],Short distance teleportation that allows Anti-Mage to move in and out of combat.
+5005,antimage_spell_shield,['Passive'],"Increases Anti-Mage's resistance to magic damage.
+
+Upgradable by Aghanim's Scepter."
+7314,antimage_counterspell,"['No Target', 'Instant Cast']",Passively grants you magic resistance. Can be activated to create an anti-magic shell around you that sends any targeted spells back towards enemies instead of affecting you.
+5006,antimage_mana_void,"['Unit Target', 'AOE']","For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned."
+5007,axe_berserkers_call,['No Target'],"Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+5008,axe_battle_hunger,['Unit Target'],"Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.
+
+Upgradable by Aghanim's Scepter."
+5009,axe_counter_helix,['Passive'],"When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies."
+5010,axe_culling_blade,['Unit Target'],"Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed."
+5012,bane_enfeeble,['Unit Target'],Lower's the target's status resistance and attack speed. 
+5011,bane_brain_sap,['Unit Target'],"Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.
+
+Upgradable by Aghanim's Scepter."
+5013,bane_fiends_grip,"['Unit Target', 'Channeled']","CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 seconds based on the unit's maximum mana."
+5014,bane_nightmare,['Unit Target'],"Puts the target enemy or friendly Hero to sleep. Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit. Bane can attack nightmared targets freely."
+5523,bane_nightmare_end,"['Hidden', 'No Target']",Ends all ongoing Nightmares.
+5015,bloodseeker_bloodrage,['Unit Target'],"Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal."
+5016,bloodseeker_blood_bath,"['AOE', 'Point Target']","Bloodseeker baptizes an area in sacred blood. After 3 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced."
+5017,bloodseeker_thirst,['Passive'],"Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack speed whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero."
+5018,bloodseeker_rupture,['Unit Target'],"Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of current health as damage per 100 units moved.  The damage is dealt through spell immunity.
+
+Upgradable by Aghanim's Scepter."
+5019,drow_ranger_frost_arrows,"['Unit Target', 'Autocast', 'Attack Modifier']","Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts 1.5 seconds on Heroes, and 7 seconds on creeps."
+5020,drow_ranger_silence,"['AOE', 'Point Target']",Stops all enemy units in a target area from casting spells.
+5632,drow_ranger_wave_of_silence,['Point Target'],Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you.
+5021,drow_ranger_trueshot,"['No Target', 'Instant Cast']","Adds bonus attack speed to allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for 30 seconds when cast."
+5022,drow_ranger_marksmanship,['Passive'],"Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their armor entirely. Instantly kills creeps and deals bonus proc physical damage to heroes. This ability is disabled if there is an enemy hero within 400 range. 
+
+Upgradable by Aghanim's Scepter."
+5023,earthshaker_fissure,['Point Target'],"Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line."
+5024,earthshaker_enchant_totem,['No Target'],"Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.
+
+Upgradable by Aghanim's Scepter."
+5025,earthshaker_aftershock,['Passive'],"Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities."
+5026,earthshaker_echo_slam,['No Target'],"Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes."
+5027,juggernaut_blade_dance,['Passive'],Gives Juggernaut a chance to deal critical damage on each attack.
+5028,juggernaut_blade_fury,"['No Target', 'Instant Cast', None]","Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units. 
+
+DISPEL TYPE: Basic Dispel"
+5029,juggernaut_healing_ward,"['AOE', 'Point Target']","Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 350 movement speed after being summoned.  Lasts 25 seconds."
+5030,juggernaut_omni_slash,['Unit Target'],"Juggernaut leaps towards the target enemy unit with an attack, and then slashes other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.
+
+Upgradable by Aghanim's Scepter."
+5031,kunkka_torrent,"['AOE', 'Point Target']","Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed."
+5032,kunkka_tidebringer,"['Unit Target', 'Autocast', 'Attack Modifier']",Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.
+5033,kunkka_x_marks_the_spot,['Unit Target'],"Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds.  Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes."
+5034,kunkka_return,"['Hidden', 'No Target']",Returns the marked hero to the X.
+5035,kunkka_ghostship,"[None, 'Point Target']","Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.
+
+Upgradeable by Aghanim's Scepter."
+5040,lina_dragon_slave,"['Unit Target', 'Point Target']","Lina channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path."
+5041,lina_light_strike_array,"['Point Target', 'AOE']",Summons a column of flames that damages and stuns enemies.
+5042,lina_fiery_soul,['Passive'],Grants bonus attack and movement speed each time Lina casts a spell. Stacks with itself. Lasts 10 seconds.
+5043,lina_laguna_blade,['Unit Target'],"Fires off a bolt of lightning at a single enemy unit, dealing massive damage.
+
+Upgradable by Aghanim's Scepter."
+5044,lion_impale,"['Point Target', 'Unit Target']","Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall."
+5045,lion_voodoo,['Unit Target'],"Transforms an enemy unit into a harmless beast, with all special abilities disabled."
+5046,lion_mana_drain,"['Unit Target', 'Channeled']",CHANNELED - Absorbs the magical energies of a target enemy unit by taking mana from it every second.
+5047,lion_finger_of_death,"['Unit Target', 'AOE']","Rips at an enemy unit, trying to turn it inside-out. Deals massive damage and grows stronger with each life it consumes.
+
+Upgradable by Aghanim's Scepter."
+5048,mirana_arrow,"[None, 'Point Target']","Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 5 seconds, with bonus damage up to 140 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits."
+5049,mirana_invis,['No Target'],"Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired."
+5050,mirana_leap,['No Target'],"Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 2.5 seconds."
+5051,mirana_starfall,['No Target'],"Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 425 radius will be struck a second time for 75% of the damage.
+
+Upgradable by Aghanim's Scepter."
+5052,morphling_waveform,['Point Target'],"Morphling dissolves into liquid and surges forward, damaging enemy units in his path.  Morphling is invulnerable during Waveform."
+5053,morphling_adaptive_strike_agi,['Unit Target'],"Launches a surge of water toward an enemy unit, dealing base damage plus additional damage based on Morphling's agility times a multiplier.  If Morphling's agility is 50% higher than strength, the maximum damage is dealt."
+7000,morphling_adaptive_strike_str,['Unit Target'],"Launches a surge of water toward an enemy unit, stunning and knocking back the target based on Morphling's strength. If his strength is 50% higher than his agility, the maximum stun/knockback is dealt."
+5054,morphling_morph,['Hidden'],
+5055,morphling_morph_agi,['No Target'],"Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change.  Passively grants bonus Agility."
+5056,morphling_morph_str,['No Target'],"Morphling shifts its form, pulling points from Agility and pouring them into Strength. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change.  Passively grants bonus Strength."
+5057,morphling_replicate,['Unit Target'],"Morphling changes his form to match the targeted enemy, gaining their basic abilities. Can be toggled for the duration of the ability. 
+
+DISPEL TYPE: Basic Dispel"
+5058,morphling_morph_replicate,"['No Target', 'Hidden', 'Instant Cast']","Morphling switches into his replication, instantly taking its position."
+5674,morphling_hybrid,"['Unit Target', 'Hidden']","Morphling creates a hybrid replication of a target allied hero, which can cast all of that hero's current, non-ultimate abilities. Enemies are able to see which unit is a hybrid."
+5059,nevermore_shadowraze1,['No Target'],"Shadow Fiend razes the ground directly in front of him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack."
+5060,nevermore_shadowraze2,['No Target'],"Shadow Fiend razes the ground a short distance away from him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack."
+5061,nevermore_shadowraze3,['No Target'],"Shadow Fiend razes the ground a longer distance away from him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack."
+5062,nevermore_necromastery,['Passive'],"Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains 12 souls.  On death, he releases half of them from bondage.
+
+Upgradable by Aghanim's Scepter."
+5063,nevermore_dark_lord,"['Passive', None]",Shadow Fiend's presence reduces the armor of nearby enemies.
+5064,nevermore_requiem,"['No Target', None]","Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every 2 souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.
+
+Upgradable by Aghanim's Scepter."
+5065,phantom_lancer_spirit_lance,['Unit Target'],"Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.
+
+Upgradable by Aghanim's Scepter."
+5066,phantom_lancer_doppelwalk,"['Point Target', 'AOE']","Phantom Lancer briefly vanishes from the battlefield. After 1 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 600% damage and deals 20% damage.
+
+DISPEL TYPE: Basic Dispel"
+5067,phantom_lancer_juxtapose,['Passive'],"Phantom Lancer has a chance to fracture his presence, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for 8 seconds, while illusions created from other illusions last 4 seconds."
+5068,phantom_lancer_phantom_edge,"['Instant Cast', 'No Target']","When targetting an enemy for an attack, Phantom Lancer quickly charges into range, gaining a temporary agility boost upon reaching the target. Phantom Lancer's illusions also have this ability."
+5069,puck_illusory_orb,['Point Target'],"Puck launches a magic orb that floats in a straight path, damaging enemy units along the way. At any point, Puck may teleport to the orb's location using Ethereal Jaunt."
+5070,puck_ethereal_jaunt,"['No Target', None]",Teleports Puck to a flying Illusory Orb.
+5071,puck_waning_rift,['No Target'],Puck releases a burst of faerie dust that deals damage and silences enemy units nearby.
+5072,puck_phase_shift,"['No Target', 'Channeled']",Puck briefly shifts into another dimension where it is immune from harm.
+5073,puck_dream_coil,"['AOE', 'Point Target']","Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for 0.5 seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.
+
+Upgradable by Aghanim's Scepter."
+5074,pudge_flesh_heap,['Passive'],"Gives Pudge increased health regeneration, as well as bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity.  Flesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active."
+5075,pudge_meat_hook,['Point Target'],"Launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge and dealing damage if it is an enemy.
+
+Upgradable by Aghanim's Scepter."
+5076,pudge_rot,"['No Target', None]",A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself.
+5077,pudge_dismember,"['Unit Target', 'Channeled']","CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Pudge gets healed for the same amount he damages. Lasts 3 seconds on Heroes, 6 seconds on creeps."
+5078,shadow_shaman_ether_shock,['Unit Target'],Creates a cone of ethereal energy that strikes multiple enemy units.
+5079,shadow_shaman_voodoo,['Unit Target'],"Transforms an enemy unit into a harmless creature, disabling their attacks and abilities."
+5080,shadow_shaman_shackles,"['Unit Target', 'Channeled']","CHANNELED - Magically binds an enemy unit so that it cannot move or attack, while dealing damage over time."
+5081,shadow_shaman_mass_serpent_ward,"['Point Target', 'AOE']","Summons 10 Serpent Wards to attack enemy units and structures. The Wards are immune to magic. It takes two hits to destroy a single Ward.
+
+Upgradable by Aghanim's Scepter."
+5082,razor_plasma_field,"['No Target', 'Instant Cast']","Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, slowing and dealing damage to enemy units caught in its path. Damage and slow increases with distance from Razor. The Plasma Field hits each unit twice, once each direction."
+5083,razor_static_link,['Unit Target'],"Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor."
+5084,razor_unstable_current,['Passive'],Passively increases your movement speed and occasionally hits every unit in the area for some damage.
+5085,razor_eye_of_the_storm,"['No Target', 'Instant Cast']","A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor. 
+
+Upgradable by Aghanim's Scepter."
+5086,skeleton_king_hellfire_blast,['Unit Target'],"Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target."
+5087,skeleton_king_vampiric_aura,"['Instant Cast', 'No Target', None]",Nearby friendly melee units restore health based on the damage they deal when attacking enemy units.
+5088,skeleton_king_mortal_strike,['No Target'],Wraith King passively gains a chance to deal bonus damage on an attack. Every two kills on an enemy unit adds a skeleton charge. Skeletons respawn once when killed. 
+5089,skeleton_king_reincarnation,['Passive'],"Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a 900 radius will be slowed.
+
+Upgradable by Aghanim's Scepter."
+5090,death_prophet_carrion_swarm,"['Unit Target', 'Point Target']",Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.
+5091,death_prophet_silence,"['AOE', 'Point Target']",Prevents enemy units in a target area from casting spells.
+5092,death_prophet_witchcraft,['Passive'],
+5685,death_prophet_spirit_siphon,['Unit Target'],"Creates a spirit link between Death Prophet and an enemy unit, draining 14 + 1,2.5,4,5.5% Max HP per second and steal %movement_slow%% movement speed from the enemy."
+5093,death_prophet_exorcism,['No Target'],"Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 35 seconds."
+5094,sven_storm_bolt,"['Unit Target', 'AOE']",Sven unleashes his magical gauntlet that deals damage and stuns enemy units.
+5095,sven_great_cleave,['Passive'],"Sven strikes with great force, cleaving all nearby enemy units with his attack."
+5096,sven_warcry,"['No Target', 'Instant Cast']","Sven's Warcry heartens his allied heroes for battle, increasing their movement speed and provides them with an attack damage shield. Buff ends if the shield is consumed. Shield health grows based on Sven's strength."
+5097,sven_gods_strength,['No Target'],"Sven channels his rogue strength, granting bonus damage for 25 seconds.
+
+Upgradable by Aghanim's Scepter."
+5098,storm_spirit_static_remnant,['No Target'],Creates an explosively charged image of Storm Spirit that lasts 12 seconds and will detonate and deal damage if an enemy unit comes near it.
+5099,storm_spirit_electric_vortex,['Unit Target'],"A vortex that pulls an enemy unit to Storm Spirit's location.
+
+Upgradable by Aghanim's Scepter."
+5100,storm_spirit_overload,['Passive'],"Casting a spell creates an electrical charge, which is released in a burst on his next attack, dealing damage and slowing nearby enemies."
+5101,storm_spirit_ball_lightning,['Point Target'],"Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 12+0.7% of his total mana pool.  Damage is expressed in damage per 100 units traveled."
+5102,sandking_burrowstrike,"['Point Target', 'Unit Target']","Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces.
+
+Upgradable by Aghanim's Scepter."
+5103,sandking_sand_storm,['No Target'],Sand King creates a fearsome sandstorm that damages enemy units while hiding him from vision.  The effect ends when Sand King leaves the area.
+5104,sandking_caustic_finale,['Passive'],"Sand King's attacks inject a venom that causes enemy units to violently explode when its timer expires, or when the unit dies, damaging and slowing nearby enemies. Deals less damage if its timer expires."
+5105,sandking_epicenter,"['Channeled', 'No Target']","CHANNELED - After channeling for 2 seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt."
+5106,tiny_avalanche,"['AOE', 'Point Target']","Bombards an area with rocks, continously doing small intervals of damage and stun to enemy units. Avalanche does 3x damage to units being tossed."
+5107,tiny_toss,"['Unit Target', 'AOE', None]","Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 30% damage."
+5108,tiny_craggy_exterior,['Unit Target'],"Grabs a tree to whack enemies on the head for a limited number of times. Grants bonus attack range. Attacks deal more damage (increased vs. buildings) and fully splash on units along the way. The tree can be thrown, expending all the charges, to deal your attack to a unit at a distance."
+6937,tiny_toss_tree,"['Unit Target', 'Point Target', 'Hidden', None]","Consume the remaining Tree Grab charges and throws the tree at the target unit, proccing your attack on it and splashing damage around the target."
+5109,tiny_grow,['Passive'],"Tiny gains craggy mass, increases his power and causes him to shrug off debuffs."
+5110,zuus_arc_lightning,['Unit Target'],Hurls a bolt of lightning that leaps through nearby enemy units.
+5111,zuus_lightning_bolt,"['Unit Target', 'Point Target']","Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range."
+6325,zuus_cloud,"['Point Target', 'AOE', 'Hidden', None]",Creates a storm cloud anywhere on the map that automatically casts Lightning Bolt on nearby enemies.
+5112,zuus_static_field,['Passive'],"Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health."
+5113,zuus_thundergods_wrath,['No Target'],"Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location."
+5114,slardar_sprint,"['No Target', 'Instant Cast', None]","Slardar slithers ahead, moving significantly faster and passing through units.  At ability level 4, Slardar may move at 700 speed while in the river."
+5115,slardar_slithereen_crush,['No Target'],"Slams the ground, stunning and damaging nearby enemy land units.  After the stun, the affected units are slowed."
+5116,slardar_bash,['Passive'],"After 3 attacks, your next attack will bash the target."
+5117,slardar_amplify_damage,['Unit Target'],"Reduces enemy armor to amplify physical damage and provides True Sight of the targeted unit, revealing invisibility."
+5118,tidehunter_gush,['Unit Target'],"Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts 4 seconds.
+
+Upgradable by Aghanim's Scepter."
+5119,tidehunter_kraken_shell,['Passive'],"Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.
+
+Does not stack with items that provide Damage Block.
+
+DISPEL TYPE: Strong Dispel"
+5120,tidehunter_anchor_smash,['No Target'],Tidehunter swings his mighty anchor to attack and deal bonus damage to nearby enemies and reduce their attack damage.
+5121,tidehunter_ravage,['No Target'],"Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units."
+5122,vengefulspirit_magic_missile,['Unit Target'],"Fires a magic missile at an enemy unit, stunning and dealing damage."
+5123,vengefulspirit_command_aura,"['Passive', None]",Vengeful Spirit's presence increases the physical damage of nearby friendly units. Spawns a Vengeance Illusion when you die that lasts until you revive.
+5124,vengefulspirit_wave_of_terror,['Point Target'],"Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead."
+5125,vengefulspirit_nether_swap,['Unit Target'],"Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.
+
+Upgradable by Aghanim's Scepter."
+5126,crystal_maiden_crystal_nova,"['Point Target', 'AOE']",A burst of damaging frost slows enemy movement and attack rate in the targeted area.
+5127,crystal_maiden_frostbite,['Unit Target'],"Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage over time. Lasts 10 seconds on creeps level 6 or lower."
+5128,crystal_maiden_brilliance_aura,['Passive'],Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden.
+5129,crystal_maiden_freezing_field,"['No Target', 'Channeled']","CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage. Grants bonus armor while channeling. Lasts 10 seconds.
+
+Upgradable by Aghanim's Scepter."
+5130,windrunner_shackleshot,['Unit Target'],"Shackles the target to an enemy unit or tree in a line directly behind it.  If no unit or tree is present, the stun duration is reduced to 0.75."
+5131,windrunner_powershot,"['Point Target', 'Channeled']","Windranger charges her bow for up to 1 second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages enemies and destroys trees along its path. For each enemy that Powershot hits, its damage is reduced by 20%."
+5132,windrunner_windrun,"['No Target', 'Instant Cast']","Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies."
+5133,windrunner_focusfire,['Unit Target'],"Windranger channels the wind to gain 425 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage.  Extra damage from secondary item effects is not reduced.  Lasts 20 seconds.
+
+Upgradable by Aghanim's Scepter."
+5134,lich_frost_nova,"['Unit Target', 'AOE']","Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for 4 seconds.  The primary target takes the most damage."
+7311,lich_dark_sorcery,"['No Target', 'Instant Cast']","Grants you bonus attack speed for a limited number of attacks, draining a percentage of mana for each hit. Costs a percentage of current health to cast. Lasts up to 15 seconds or when the attack count is consumed."
+7325,lich_sinister_gaze,"['Unit Target', 'Channeled', None]","CHANNELED - Hypnotizes an enemy unit, causing it to move towards a point between the two of you."
+7312,lich_frost_aura,"['Passive', None]",Allied Aura. Causes all nearby ally attacks to slow enemy movement speed.
+5135,lich_frost_armor,"['Unit Target', 'Autocast']","Creates a shield around the target friendly unit or building, which adds armor and slows attacking units. Lasts 40 seconds."
+5136,lich_frost_shield,['Unit Target'],"Applies a magical frost shield around you, reducing damage from attacks against you. While the shield is active, ice magic will be affect nearby enemy units every 1 seconds, doing minor damage and slowing."
+5137,lich_chain_frost,['Unit Target'],"Releases an orb of frost that bounces between nearby enemy units up to 10,10,10 times, slowing and damaging each time it hits. 
+
+Upgradable by Aghanim's Scepter."
+5138,witch_doctor_paralyzing_cask,['Unit Target'],"Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits."
+5139,witch_doctor_voodoo_restoration,"['No Target', None]",Witch Doctor focuses his magic to heal nearby allied units.
+5140,witch_doctor_maledict,"['AOE', 'Point Target']","Curses all enemy Heroes in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began."
+5141,witch_doctor_death_ward,"['Point Target', 'Channeled']","CHANNELED - Summons a deadly ward to attack enemy heroes within 700 range. Lasts a maximum of 8 seconds.
+
+Upgradable by Aghanim's Scepter."
+5142,riki_smoke_screen,"['AOE', 'Point Target']","Throws down a smoke bomb, silencing enemies, and causing them to miss most attacks, as well as slowing movement."
+5143,riki_blink_strike,['Unit Target'],"Teleports behind the target unit, striking for bonus damage if it is an enemy."
+5144,riki_permanent_invisibility,['Passive'],"Riki fades into the shadows, becoming invisible. Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. When Riki attacks, he becomes visible."
+5145,riki_tricks_of_the_trade,"['No Target', 'Channeled']","CHANNELED - Riki phases out of the world while striking random enemy heroes from behind in an area around him.
+
+Upgradable by Aghanim's Scepter."
+5146,enigma_malefice,['Unit Target'],"Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds."
+5147,enigma_demonic_conversion,['Unit Target'],"Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored."
+5148,enigma_midnight_pulse,"['AOE', 'Point Target']","Steeps an area in dark resonance, damaging enemy units based on their max HP."
+5149,enigma_black_hole,"['AOE', 'Point Target', 'Channeled']","CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.
+
+Upgradable by Aghanim's Scepter."
+5150,tinker_laser,['Unit Target'],"Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks. 
+
+Upgradable by Aghanim's Scepter."
+5151,tinker_heat_seeking_missile,['No Target'],"Launches a pair of rockets at the nearest visible enemy heroes within 2500 range. 
+
+Upgradable by Aghanim's Scepter."
+5152,tinker_march_of_the_machines,"['AOE', 'Point Target']",Enlists an army of robotic minions to destroy enemy units in an area around Tinker.
+5153,tinker_rearm,"['No Target', 'Channeled']",CHANNELED - Resets the cooldown on most of Tinker's items and abilities.
+5154,sniper_shrapnel,"['AOE', 'Point Target']",Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every 50 seconds.
+5155,sniper_headshot,['Passive'],"Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies."
+5156,sniper_take_aim,"['No Target', 'Instant Cast']",Extends the attack range of Sniper's rifle. Can be activated to double the attack range bonus for 1 attack.
+5157,sniper_assassinate,"['Unit Target', None]","Sniper locks onto a target enemy unit and, after a short aiming duration, fires a devastating shot that deals damage at long range and mini-stuns the target.
+
+Upgradable by Aghanim's Scepter."
+5158,necrolyte_death_pulse,['No Target'],"Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units."
+5159,necrolyte_heartstopper_aura,"['Passive', None]","Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time. Passively provides regen for 7 seconds for each unit Necrophos kills."
+5160,necrolyte_sadist,"['No Target', 'Instant Cast']","Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified."
+6316,necrolyte_sadist_stop,"['No Target', 'Hidden', 'Instant Cast']",
+5161,necrolyte_reapers_scythe,['Unit Target'],"Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have 15,30,45 seconds added to their respawn timer. Any kill under this effect is credited to Necrophos.
+
+Upgradable by Aghanim's Scepter."
+5162,warlock_fatal_bonds,['Unit Target'],"Binds several enemy units together, causing a percentage of the damage dealt to one of them to be felt by the others."
+5163,warlock_shadow_word,['Unit Target'],"Warlock whispers an incantation, healing a friendly unit or damaging an enemy unit over time."
+5164,warlock_upheaval,"['Point Target', 'Channeled', 'AOE']",CHANNELED - A powerful slowing current that grows stronger as it's channelled. Lasts up to 16 seconds.  Enemies are slowed for 3 seconds after leaving the area or the spell ends.
+5165,warlock_rain_of_chaos,"['Point Target', 'AOE']","Summons a Golem from the depths, stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.
+
+Upgradable by Aghanim's Scepter."
+5166,warlock_golem_flaming_fists,['Passive'],Deals extra damage to nearby units when attacking.
+5167,warlock_golem_permanent_immolation,['Passive'],"Burns the Golem's nearby enemy units, with damage per second."
+5168,beastmaster_wild_axes,['Point Target'],"Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path.  Each axe can hit an enemy once, and amplifies subsequent damage from Beastmaster and his units."
+5169,beastmaster_call_of_the_wild,['No Target'],
+7230,beastmaster_call_of_the_wild_boar,['No Target'],Beastmaster calls forth a Boar to aid in the battlefield.
+7231,beastmaster_call_of_the_wild_hawk,"['Point Target', 'AOE']",Beastmaster sends an invisible Hawk to scout an area.
+5170,beastmaster_hawk_invisibility,['Passive'],"If motionless for some time, the hawk becomes invisible."
+5171,beastmaster_boar_poison,['Passive'],Inflicts a poison that slows attack and movement speeds.
+5352,beastmaster_greater_boar_poison,['Passive'],Inflicts a poison that slows attack and movement speeds.
+5172,beastmaster_inner_beast,['Passive'],"Untaps the inner fury of allies, passively increasing their attack speed."
+5177,beastmaster_primal_roar,['Unit Target'],"Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 40% movement speed for 3 seconds.
+
+Upgradable by Aghanim's Scepter."
+5173,queenofpain_shadow_strike,['Unit Target'],"Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds."
+5174,queenofpain_blink,['Point Target'],Short distance teleportation that allows Queen of Pain to move in and out of combat.
+5175,queenofpain_scream_of_pain,['No Target'],"The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies."
+5176,queenofpain_sonic_wave,"[None, 'Point Target']","Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.
+
+Upgradable by Aghanim's Scepter."
+5178,venomancer_venomous_gale,"['AOE', 'Point Target']","Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 3 seconds over its duration."
+5179,venomancer_poison_sting,['Passive'],"Adds poison damage to Venomancer's normal attacks, slowing movement speed."
+5180,venomancer_plague_ward,['Point Target'],"Summons a plague ward to attack enemy units and structures. The ward is immune to magic. Wards gain the Poison Sting level from Venomancer, dealing 50% of the full damage."
+5181,venomancer_poison_nova,['No Target'],"A spreading ring of poison that does damage over time to enemy units around Venomancer.  Poison Nova cannot deal lethal damage; targets will be left with at least 1 health.
+
+Upgradable by Aghanim's Scepter."
+5182,faceless_void_time_walk,"['Point Target', None]",Rushes to a target location while backtracking any damage taken the last 2 seconds.
+5183,faceless_void_backtrack,['Passive'],
+5184,faceless_void_time_lock,['Passive'],Adds the chance for an attack to lock an enemy unit in time while attacking it a second time.
+5691,faceless_void_time_dilation,['No Target'],"Faceless Void traps all nearby enemies in a time dilation field for 6,8,10,12 seconds, freezing their cooldowns and slowing their movement and attack speed by 14% for each cooldown frozen."
+5185,faceless_void_chronosphere,"['AOE', 'Point Target']","Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only Faceless Void and any units he controls are unaffected.  Invisible units in the sphere will be revealed.
+
+Upgradable by Aghanim's Scepter."
+5186,pugna_nether_blast,"['AOE', 'Point Target']",An exploding pulse deals damage to enemies and structures in the area.  Deals half damage to structures.
+5187,pugna_decrepify,['Unit Target'],A powerful banishing spell that slows a unit and renders it unable to attack or be attacked. Afflicted units take extra magic damage.
+5188,pugna_nether_ward,['Point Target'],"Pugna places a Nether Ward at the target location. The ward reduces the mana regeneration of nearby enemy heroes, and will fire at any enemy hero who casts a spell. Nether Ward deals damage equal to the damage multiplier times the mana spent by the enemy hero."
+5189,pugna_life_drain,"['Unit Target', 'Channeled']","CHANNELED - When cast on an enemy, Pugna drains health from the target enemy unit to heal himself and granting vision over the target. If Pugna has full HP, and the enemy target is a Hero, Life Drain will restore mana instead.
+
+When cast on an ally, Pugna will drain his own health into his ally.
+
+Upgradable by Aghanim's Scepter."
+5190,phantom_assassin_stifling_dagger,['Unit Target'],"Throws a dagger slowing the enemy unit's movement speed, dealing 65+25,40,55,70% of Phantom Assassin's attack damage as physical damage and applying attack effects from items and abilities."
+5191,phantom_assassin_phantom_strike,['Unit Target'],"Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit."
+5192,phantom_assassin_blur,['No Target'],"Phantom Assassin focuses inward, increasing her ability to evade enemy attacks. Can be activated to blur her body, causing her to be impossible to see until near enemy heroes.
+
+Stacks diminishingly with other sources of Evasion."
+5193,phantom_assassin_coup_de_grace,['Passive'],"Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance."
+5194,templar_assassin_refraction,"['No Target', 'Instant Cast']","Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances."
+5195,templar_assassin_meld,['No Target'],"Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 10 seconds."
+5196,templar_assassin_psi_blades,['Passive'],"Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range."
+5197,templar_assassin_psionic_trap,['Point Target'],"Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 4 seconds. Deals bonus damage when fully charged."
+5198,templar_assassin_trap,"[None, 'No Target', 'Instant Cast', None]","Springs the nearest trap, slowing nearby enemies."
+5199,templar_assassin_self_trap,"[None, 'No Target', 'Instant Cast']","Springs the trap, slowing nearby enemies."
+5218,viper_poison_attack,"['Unit Target', 'Autocast', 'Attack Modifier']","Intensifies Viper's venom, adding an effect to his normal attack that slows attack and movement speed while dealing damage over time based on how low the target is."
+5219,viper_nethertoxin,"['Point Target', 'AOE']","Viper releases a Nethertoxin at the targeted area. Units in that area take damage over time, have lower resistance and their passives do not work."
+5220,viper_corrosive_skin,['Passive'],Viper exudes an infectious toxin that damages and slows the attack speed of any enemy that damages it in a 1400 radius. The acid exudate also increases Viper's resistance to magic.
+5221,viper_viper_strike,['Unit Target'],"Viper slows the targeted enemy unit's movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.
+
+Upgradable by Aghanim's Scepter."
+5222,luna_lucent_beam,['Unit Target'],"Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them."
+5223,luna_moon_glaive,['Passive'],"Empowers Luna's glaives, causing her attacks to bounce between enemy units. Deals less damage with each bounce."
+5224,luna_lunar_blessing,['Passive'],Increases the primary attribute for Luna and nearby allied heroes. Luna is also blessed with increased vision range at night.
+5225,luna_eclipse,['No Target'],"Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for 10 seconds.
+
+Upgradable by Aghanim's Scepter."
+5226,dragon_knight_breathe_fire,"[None, 'Point Target', 'Unit Target']",Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal.
+5227,dragon_knight_dragon_tail,['Unit Target'],"Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage.  When in Elder Dragon Form, the cast range increases to 400."
+5228,dragon_knight_dragon_blood,['Passive'],The life blood of the Dragon improves health regeneration and strengthens armor.
+5229,dragon_knight_elder_dragon_form,['No Target'],"Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.
+LEVEL 1 Green Dragon - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures.
+LEVEL 2 Red Dragon - Splash Attack: attacks damage all enemy units in a 300 radius for 75% damage, with Corrosive Breath added to the targets.
+LEVEL 3 Blue Dragon - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets."
+5232,dragon_knight_frost_breath,['Passive'],
+5233,dazzle_poison_touch,['Unit Target'],"Releases a cone of poison that strikes multiple enemy units. Deals damage over time and slows the targets. Anytime the targets get attacked, the debuff duration is refreshed."
+5234,dazzle_shallow_grave,['Unit Target'],"An ally blessed with Shallow Grave, no matter how close to death, cannot die while under its protection.
+
+Upgradable by Aghanim's Scepter."
+5235,dazzle_shadow_wave,['Unit Target'],"Sends out a bolt of power that arcs between allies, healing them while damaging any units standing nearby.  Dazzle is always healed by Shadow Wave."
+5236,dazzle_weave,"['Point Target', 'AOE']",Applies a buff that increases the armor of allied heroes while decreasing the armor of enemy heroes in the target area over time.
+7304,dazzle_bad_juju,['Passive'],"Passively reduces cooldowns on your abilities and items. Anytime you cast a spell, all nearby enemies will have their armor reduced. Debuff stacks and refreshes duration."
+5237,rattletrap_battery_assault,"['No Target', 'Instant Cast']","Discharges high-powered shrapnel at random nearby enemy units, dealing minor magical damage and ministun."
+5238,rattletrap_power_cogs,['No Target'],"Forms a barrier of energized cogs around Clockwerk, trapping any units that are near.  Enemies outside the trap that touch a cog are knocked back, losing health and mana. Once a cog has delivered a shock, it will power down.  Cogs can be destroyed by enemy attacks, but Clockwerk can destroy them with just one."
+5239,rattletrap_rocket_flare,"['Point Target', 'AOE']","Fires a global range flare that explodes over a given area, damaging enemies and providing vision for 10 seconds."
+5240,rattletrap_hookshot,['Point Target'],"Fires a grappling device rapidly at the target location.  If the hook hits a unit, Clockwerk launches himself into the target, stunning and dealing damage.  Any enemies Clockwerk collides with along the way are damaged and stunned.
+
+Upgradable by Aghanim's Scepter."
+5241,leshrac_split_earth,"['Point Target', 'AOE']",Splits the earth under enemies. Deals damage and stuns for a short duration.
+5242,leshrac_diabolic_edict,['No Target'],"Saturates the area around Leshrac with magical explosions that deal physical damage to enemy units and structures.  The fewer units available to attack, the more damage those units will take.  Deals 40% more damage to towers.  Lasts 10 seconds."
+5243,leshrac_lightning_storm,['Unit Target'],"Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies are slowed.
+
+Upgradable by Aghanim's Scepter."
+5244,leshrac_pulse_nova,"['No Target', None]","Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units."
+5245,furion_sprout,"['Unit Target', 'Point Target']","Sprouts a ring of trees around a unit, trapping it in place."
+5246,furion_teleportation,"['Point Target', None]",Teleports to any point on the map.
+5247,furion_force_of_nature,"['Point Target', 'AOE']","Converts an area of trees into Treants. Treants have 550 health and deal 27,30,33,36 damage."
+5248,furion_wrath_of_nature,"['Unit Target', 'Point Target']","Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.
+
+Upgradable by Aghanim's Scepter."
+5249,life_stealer_rage,"['No Target', 'Instant Cast']","Launch into a maddened rage, becoming Spell Immune, 100% resistant to magic damage, and gaining increased attack speed.
+
+DISPEL TYPE: Basic Dispel"
+5250,life_stealer_feast,['Passive'],Lifestealer's attacks damage enemies and heal himself for a percentage of his target's max health.
+5251,life_stealer_open_wounds,['Unit Target'],"Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration."
+5252,life_stealer_infest,['Unit Target'],"Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.
+
+DISPEL TYPE: Basic Dispel"
+5671,life_stealer_assimilate,"['Unit Target', 'Hidden']","Lifestealer swallows an allied hero, allowing them to hide within him. Any healing Lifestealer receives is shared with the hero within. When an assimilated hero leaves Lifestealer, they erupt outward, damaging nearby enemies.
+
+DISPEL TYPE: Strong Dispel"
+5675,life_stealer_assimilate_eject,"['No Target', 'Hidden', 'Instant Cast', None]","Ejects an Assimilated hero, damaging nearby enemies."
+5253,life_stealer_consume,"['Hidden', 'No Target', None, 'Instant Cast']","Lifestealer eats the host body from the inside out, exploding from within."
+5655,life_stealer_control,"['Hidden', 'No Target', None, 'Instant Cast', None]","Lifestealer seizes control of the host body's nervous system, allowing him to issue movement and attack orders from within.  Controlled units share Lifestealer's movement speed.  Cannot be used on heroes."
+5657,life_stealer_empty_1,"['Hidden', 'Passive', None]",
+5658,life_stealer_empty_2,"['Hidden', 'Passive', None]",
+5659,life_stealer_empty_3,"['Hidden', 'Passive', None]",
+5660,life_stealer_empty_4,"['Hidden', 'Passive', None]",
+5255,dark_seer_vacuum,"['Point Target', 'AOE']","Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage."
+5256,dark_seer_ion_shell,['Unit Target'],Surrounds the target unit with a bristling shield that damages enemy units in an area around it.
+5257,dark_seer_surge,['Unit Target'],"Charges a target friendly unit with power, giving it a brief burst of movement speed and removes unit collisions. Allows the unit to surpass the movement speed limit and cannot be slowed."
+5258,dark_seer_wall_of_replica,['Point Target'],"Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.
+
+Upgradable by Aghanim's Scepter."
+5259,clinkz_strafe,"['No Target', 'Instant Cast', None]",Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge projectiles.
+5260,clinkz_searing_arrows,"['Unit Target', 'Autocast', 'Attack Modifier']",Imbues Clinkz's arrows with fire for extra damage.
+5261,clinkz_wind_walk,"['No Target', 'Instant Cast', None]",Clinkz moves invisibly through units until the moment he attacks or uses an ability.
+7319,clinkz_burning_army,['Point Target'],Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons use your current Searing Arrows ability and attack only heroes. Base damage is equal to your hero's base damage. Attack range is equal to your hero's attack range. 
+5262,clinkz_death_pact,['Unit Target'],"Clinkz consumes the target friendly or enemy creep, gaining a percent of its hitpoints as max health and damage."
+5263,omniknight_purification,"['Unit Target', 'AOE']",Instantly heals a friendly unit and damages all nearby enemy units.
+5264,omniknight_repel,['Unit Target'],"Creates a divine barrier around an ally which grants them increased Status Resistance, Strength and Health Regeneration.
+
+DISPEL TYPE: Strong Dispel"
+7323,omniknight_pacify,"['Point Target', 'AOE']",Causes affected enemies to deal less spell damage for a duration.
+5265,omniknight_degen_aura,"['Passive', None]",Greatly degenerates the movement and attack capabilities of enemy units that stray too near.
+5266,omniknight_guardian_angel,['No Target'],"Omniknight summons a Guardian Angel that grants immunity from physical damage.
+
+Upgradable by Aghanim's Scepter"
+5267,enchantress_untouchable,['Passive'],"Enchantress beguiles her enemies, slowing their attacks when she is attacked."
+5268,enchantress_enchant,['Unit Target'],"Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control. If cast on a creep already under her control, she refreshes its enchant duration.
+
+DISPEL TYPE: Basic Dispel"
+5269,enchantress_natures_attendants,['No Target'],A cloud of wisps heals Enchantress and any friendly units nearby. Lasts 11 seconds.
+5270,enchantress_impetus,"['Unit Target', 'Autocast', 'Attack Modifier']","Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is.  The farther the target, the greater the damage dealt.
+
+Upgradable by Aghanim's Scepter."
+5271,huskar_inner_vitality,['Unit Target'],"Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%, it will heal faster.  Lasts 16 seconds."
+7300,huskar_inner_fire,['No Target'],"In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and disarming them."
+5272,huskar_burning_spear,"['Unit Target', 'Autocast', 'Attack Modifier']","Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 8 seconds."
+5273,huskar_berserkers_blood,['Passive'],"Huskar's injuries feed his power, giving increased attack speed and health regen based on missing health. Health regen is a percentage of your strength."
+5274,huskar_life_break,['Unit Target'],"Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.
+
+DISPEL TYPE: Basic Dispel
+
+Upgradable by Aghanim's Scepter."
+5275,night_stalker_void,['Unit Target'],"Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night. Deals half damage during day."
+5276,night_stalker_crippling_fear,['No Target'],"Night Stalker horrifies all nearby enemies, causing them to become silenced while near him.  The effect lasts longer at night."
+5277,night_stalker_hunter_in_the_night,['Passive'],"Night Stalker is in his element at night, attacking and moving with great swiftness."
+5278,night_stalker_darkness,['No Target'],"Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Nightstalker gains flight and bonus damage during this time. Has unobstructed vision."
+5279,broodmother_spawn_spiderlings,['Unit Target'],"Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence."
+5284,broodmother_poison_sting,['Passive'],Poisons and slows enemies with each attack.
+5283,broodmother_spawn_spiderite,['Passive'],"Applies debuff on attack. If debuffed unit dies, a spiderite will spawn."
+5280,broodmother_spin_web,"['Point Target', 'AOE']","Spins a large web that grants Broodmother a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every 45 seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears."
+5281,broodmother_incapacitating_bite,['Passive'],"Broodmother's venom cripples enemy units, causing her attacks to slow and giving the affected unit a chance to miss its attacks."
+5282,broodmother_insatiable_hunger,['No Target'],A violent lust for vital fluids increases Broodmother's attack damage and gives her a vampiric attack.
+5285,bounty_hunter_shuriken_toss,['Unit Target'],"Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a 1200 radius of each other.
+
+Upgradable by Aghanim's Scepter."
+5286,bounty_hunter_jinada,['Passive'],"Bounty Hunter plans his next hit, dealing bonus damage and stealing some unreliable gold."
+5287,bounty_hunter_wind_walk,"['No Target', 'Instant Cast', None]","Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will slow the target's movement speed."
+5288,bounty_hunter_track,['Unit Target'],"Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. You move fast when near the tracked unit and deal critical strikes when attacking it. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold. Casting Track does not take you out of invisibility."
+5289,weaver_the_swarm,['Point Target'],"Weaver launches a swarm of 12 young Weavers that latch on any enemy unit in their path, attacking and reducing armor until it is killed."
+5290,weaver_shukuchi,"['No Target', 'Instant Cast', None]","Weaver shifts out of visibility, gaining the ability to move at maximum speed through physical units--doing harm to any enemies it passes through."
+5291,weaver_geminate_attack,['Passive'],Allows Weaver to dispatch two attacks at once.
+5292,weaver_time_lapse,['No Target'],"Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Strong Dispel"
+5297,jakiro_dual_breath,"['Point Target', 'Unit Target']","An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time."
+5298,jakiro_ice_path,['Point Target'],Creates a path of ice that stuns and damages enemies that touch it.
+5299,jakiro_liquid_fire,"['Unit Target', 'Autocast', 'Attack Modifier']","Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks."
+5300,jakiro_macropyre,['Point Target'],"Jakiro exhales a wide line of lasting flames, which deals damage per second to any enemy units caught in the fire.
+
+Upgradable by Aghanim's Scepter."
+5320,batrider_sticky_napalm,"['AOE', 'Point Target']","Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.  The extra damage is halved against creeps."
+5321,batrider_flamebreak,"['AOE', 'Point Target']","Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area."
+5322,batrider_firefly,"['No Target', 'Instant Cast']","Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision."
+5323,batrider_flaming_lasso,['Unit Target'],"Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.
+
+Upgradable by Aghanim's Scepter."
+5328,chen_penitence,['Unit Target'],Forces an enemy unit to move slower and for allies to attack it more quickly.
+5329,chen_test_of_faith,['Unit Target'],Deals random damage to test an enemy unit's faith. Heals a random amount to allied units. Always applies the maximum effect when cast on yourself.
+7306,chen_divine_favor,['Unit Target'],"Provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage. Provides triple bonus damage for non-hero targets."
+5522,chen_test_of_faith_teleport,['Unit Target'],"Teleports an allied unit back to the base.  Creeps are teleported instantly, while Heroes have a delay before teleporting. If cast on Chen, all units controlled by Chen through Holy Persuasion will be teleported to him after a delay."
+5330,chen_holy_persuasion,['Unit Target'],"Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.
+
+Can be cast on allies to teleport them to Chen. If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage will dispel the buff.  
+
+Upgradable by Aghanim's Scepter."
+5331,chen_hand_of_god,['No Target'],Heals all allied heroes on the map as well as all units under Chen's control.
+5334,spectre_spectral_dagger,"['Point Target', 'Unit Target']","Spectre flings a dagger to draw a Shadow Path, dealing damage and slowing the movement speed of any enemies along the trail. Units hit by the dagger also trail a Shadow Path. While treading the path, Spectre phases through otherwise impassable terrain."
+5335,spectre_desolate,['Passive'],Deals bonus damage whenever Spectre attacks an enemy who is alone. Reduces the enemy vision for 5 seconds.
+5336,spectre_dispersion,['Passive'],"Damage done to Spectre is reflected on her enemies, leaving her unharmed. The effect lessens with distance."
+5337,spectre_haunt,['No Target'],"Creates a spectral nemesis to attack each enemy hero after a short delay. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.
+
+Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself.  They move at 400 base movement speed and ignore terrain."
+5338,spectre_reality,"[None, 'Point Target']",Spectre exchanges places with a chosen Haunt.
+5339,doom_bringer_devour,"['Unit Target', 'Autocast']","Consumes an enemy or neutral creep, acquiring any special abilities that it possessed."
+5340,doom_bringer_scorched_earth,['No Target'],"Carpets the nearby earth in flames which damage enemies, while also granting him increased movement speed."
+5341,doom_bringer_infernal_blade,"['Unit Target', 'Autocast', 'Attack Modifier']","Doom swings his burning sword, igniting the enemy. Stuns for 0.6 seconds and applies a 4 second burn that deals 25 + 1.25,2.5,3.75,5% of the target's Max HP as damage per second."
+5342,doom_bringer_doom,['Unit Target'],"Inflicts a curse that prevents an enemy Hero from casting spells or using items, while taking damage over time.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Basic Dispel"
+5343,doom_bringer_empty1,"['Passive', None]",This slot will be replaced with abilities acquired using Devour.
+5344,doom_bringer_empty2,"['Passive', None]",This slot will be replaced with abilities acquired using Devour.
+5345,ancient_apparition_cold_feet,['Unit Target'],"Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds."
+5346,ancient_apparition_ice_vortex,"['AOE', 'Point Target']",Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.
+5347,ancient_apparition_chilling_touch,"['Unit Target', 'Autocast', 'Attack Modifier']",Enhances your attacks with heavy magic damage and slow. Grants increased range for this attack.
+5348,ancient_apparition_ice_blast,"['Point Target', 'AOE']","Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.
+
+Upgradable by Aghanim's Scepter."
+5349,ancient_apparition_ice_blast_release,"['Hidden', 'No Target']",Releases the ice blast to explode at the tracer's current location.
+5353,spirit_breaker_charge_of_darkness,"['Unit Target', None]","Spirit Breaker fixes his sight on an enemy unit and starts charging through all objects.  All enemy units passed through and the targeted unit will be hit by a Greater Bash.  If the targeted unit dies, Spirit Breaker will change his target to the nearest enemy unit to that location."
+7301,spirit_breaker_bulldoze,"['No Target', 'Instant Cast']",Spirit Breaker gains movement speed and status resistance to ram through enemies. Can be used while charging.
+5354,spirit_breaker_empowering_haste,"['No Target', 'Instant Cast', None]",Causes Spirit Breaker to gain power with higher movement speed. His presence increases the movement speed of nearby allied units. Can be cast to improve the movement speed bonus for 6 seconds.
+5355,spirit_breaker_greater_bash,['Passive'],"Gives a chance to stun and knockback an enemy unit on an attack, as well as gaining bonus movement speed after a bash occurs. Deals a percentage of movement speed as damage."
+5356,spirit_breaker_nether_strike,['Unit Target'],"Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance. 
+
+Upgradable by Aghanim's Scepter."
+5357,ursa_earthshock,['No Target'],"Ursa slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds."
+5358,ursa_overpower,['No Target'],"Using his skill in combat, Ursa gains increased attack speed for a number of subsequent attacks."
+5359,ursa_fury_swipes,['Passive'],"Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 8,12,16,20 seconds, the bonus damage is lost."
+5360,ursa_enrage,"['No Target', 'Instant Cast']","Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take 80% less damage. Removes any existing debuffs.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Strong Dispel"
+5361,gyrocopter_rocket_barrage,"['No Target', 'Instant Cast']",Launches a salvo of rockets at nearby enemy units in a radius around the Gyrocopter.  Lasts 3 seconds.
+5362,gyrocopter_homing_missile,['Unit Target'],"Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target. Enemy units can destroy the missile before it reaches its target."
+5363,gyrocopter_flak_cannon,"['No Target', 'Instant Cast']",Gyrocopter's attacks hit all enemy units in an area around it for a limited number of attacks.  Only the main target of attacks will receive attack bonuses such as Critical Strike.  Lasts 15 seconds or until the attacks are used.
+5364,gyrocopter_call_down,"['Point Target', 'AOE']","Call down an aerial missile strike on enemy units in a target area.  Two missiles arrive in succession, the first dealing major damage and minor slow for 2 seconds; the second dealing minor damage and major slow for 4 seconds.
+
+Upgradable by Aghanim's Scepter."
+5365,alchemist_acid_spray,"['Point Target', 'AOE']",Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.
+5366,alchemist_unstable_concoction,"['No Target', 'Instant Cast']","Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown."
+5367,alchemist_unstable_concoction_throw,"['Unit Target', 'AOE', 'Hidden']",Throw it before it blows up!
+5368,alchemist_goblins_greed,['Passive'],"Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold."
+5369,alchemist_chemical_rage,['No Target'],"Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.
+
+DISPEL TYPE: Basic Dispel"
+5370,invoker_quas,"['No Target', 'Instant Cast']","Allows manipulation of ice elements. Each Quas instance provides increased health regeneration.
+"
+5371,invoker_wex,"['No Target', 'Instant Cast']",Allows manipulation of storm elements. Each Wex instance provides increased attack speed and movement speed.
+5372,invoker_exort,"['No Target', 'Instant Cast']",Allows manipulation of fire elements. Each Exort instance provides increased attack damage.
+5373,invoker_empty1,"['Passive', None]","Casting Invoke will replace this slot with one of ten unique spells based on Invoker's currently active Quas, Wex, and Exort buffs."
+5374,invoker_empty2,"['Passive', None]","Casting Invoke will replace this slot with one of ten unique spells based on Invoker's currently active Quas, Wex, and Exort buffs."
+5375,invoker_invoke,"['No Target', 'Instant Cast', None]","Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use.  Click the help button to see the list of possible spells.
+
+Upgradable by Aghanim's Scepter."
+5690,invoker_attribute_bonus,['Passive'],Improves all attributes per point spent
+5376,invoker_cold_snap,"['Unit Target', 'Hidden', None, None]","Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of Quas. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of Quas."
+5381,invoker_ghost_walk,"['No Target', 'Instant Cast', 'Hidden', None, None, None]","Invoker manipulates the ice and electrical energies around him, rendering his body invisible. The elemental imbalance created as a consequence slows nearby enemies based on the level of Quas, and slows Invoker as well based on the level of Wex."
+5382,invoker_tornado,"['Point Target', 'Hidden', None, None]","Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. Deals base damage plus added damage based on levels in Wex.
+
+DISPEL TYPE: Basic Dispel"
+5383,invoker_emp,"['Point Target', 'Hidden', None, 'AOE', None]","Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after 2.9 seconds. The detonation covers an area, draining mana based on the level of Wex. Deals damage for each point of mana drained.  If EMP drains mana from an enemy hero, Invoker gains 50% of the mana drained."
+5384,invoker_alacrity,"['Unit Target', 'Hidden', None, None]","Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of Wex and their damage based on the level of Exort."
+5385,invoker_chaos_meteor,"['Point Target', 'Hidden', None, None]","Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage based on the level of Exort, and rolling further based on the level of Wex. Units hit by the meteor will also be set on fire for a short time, receiving additional damage based on the level of Exort."
+5386,invoker_sun_strike,"['Point Target', 'Hidden', None, 'AOE', None]","Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. Deals damage based on the level of Exort, however this damage is spread evenly over all enemies hit."
+5387,invoker_forge_spirit,"['No Target', 'Hidden', None, None]","Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of Exort while attack range, health, and duration are based on the level of Quas. The elemental's scorching attack is capable of melting the armor of enemy heroes."
+5388,forged_spirit_melting_strike,"['Passive', None]",Melts away the armor of heroes hit by the spirit's attack if the spirit has enough mana. Each successive hit increases the amount of armor melted.
+5389,invoker_ice_wall,"['No Target', 'Hidden', None, None]",Generates a wall of solid ice directly in front of Invoker for a duration based on the level of Quas. The bitter cold emanating from it greatly slows nearby enemies based on the level of Quas and deals damage each second based on the level of Exort.
+5390,invoker_deafening_blast,"['Point Target', 'Hidden', None, None]","Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of Exort. The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of Quas, then disarm their attacks for a duration based on the level of Wex."
+5377,silencer_curse_of_the_silent,"['Point Target', 'AOE']","Curses the target area, causing enemy heroes to take damage and slowing their movement speed. Anytime affected enemies cast a spell, the duration is increased."
+5378,silencer_glaives_of_wisdom,"['Unit Target', 'Autocast', 'Attack Modifier']","Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.
+
+Upgradable by Aghanim's Scepter."
+5379,silencer_last_word,['Unit Target'],"Enchants a target, causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires."
+5380,silencer_global_silence,['No Target'],"Silencer stops all sound, preventing enemy heroes and units on the map from casting spells."
+5391,obsidian_destroyer_arcane_orb,"['Unit Target', 'Autocast', 'Attack Modifier']","Adds extra pure damage to Outworld Devourer's attacks, based on his remaining mana pool. Steals intelligence for 80 seconds per hit when attacking an enemy hero. Arcane Orb damage splashes in a small area."
+5392,obsidian_destroyer_astral_imprisonment,['Unit Target'],"Places a target unit into an astral prison. The hidden unit is invulnerable and disabled. When the astral prison implodes, it deals damage to the target and nearby enemies with 400 range.
+
+Upgradable by Aghanim's Scepter."
+5393,obsidian_destroyer_essence_aura,"['Passive', None]","Whenever nearby allied Heroes or Outworld Devourer itself casts a spell, it gains a chance to restore a percentage of its mana pool.  Outworld Devourer also passively gains a bonus to its base mana pool.  Several skills with no cooldown and toggled spells cannot trigger Essence Aura."
+5684,obsidian_destroyer_equilibrium,"['No Target', 'Instant Cast']",Causes any spell damage you deal to slow enemies and restore mana based on how much damage was dealt.
+5394,obsidian_destroyer_sanity_eclipse,"['Point Target', 'AOE']","Unleashes a psychic blast that removes 40% of the mana from affected heroes, while also damaging them based on the difference between the affected hero's Intelligence and Outworld Devourer's. If an enemy hero has the same or higher Intelligence than Outworld Devourer, Sanity's Eclipse will not cause damage. Sanity's Eclipse can hit units trapped by Astral Imprisonment."
+5395,lycan_summon_wolves,['No Target'],"Summons two wolves to fight for Lycan.  Level 3-4 wolves have Cripple, and level 4 wolves have permanent invisibility."
+5396,lycan_howl,['No Target'],"Grants bonus attack speed, armor, and health regen to Lycan, all allied heroes and all units under their control."
+5397,lycan_feral_impulse,['Passive'],Increases the HP regeneration and damage of Lycan and all units under his control.
+5398,lycan_shapeshift,['No Target'],"Lycan assumes his lupine form, granting him and his units critical strikes and added vision at night. During Shapeshift, Lycan and all units under his control move at increased speed, cannot be slowed and have a 40% chance to deal a critical strike doing 150,175,200% damage."
+5399,lycan_summon_wolves_critical_strike,['Passive'],"Gives 20% to cripple the target, causing 8 damage per second and lose 60 Attack Speed for 4 seconds."
+5500,lycan_summon_wolves_invisibility,['Passive'],Permanently invisible when not attacking.
+5412,lone_druid_spirit_bear,['No Target'],"Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10% of his max health as backlash damage if the Spirit Bear dies.  As the bear increases in levels, it can learn the Return, Entangling Claws, and Demolish abilities.  Spirit Bear does not benefit from attributes.
+
+Upgradable by Aghanim's Scepter."
+5413,lone_druid_rabid,"['No Target', 'Instant Cast']",Increases the attack and movement speed of Lone Druid and the Spirit Bear.
+7309,lone_druid_spirit_link,"['No Target', 'Instant Cast']","Links Lone Druid and the Spirit Bear, increasing the attack speed of both and causing damage each one deals to heal the other."
+5414,lone_druid_savage_roar,['No Target'],Lone Druid roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%.
+5687,lone_druid_savage_roar_bear,"['No Target', 'Hidden']",Spirit Bear roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%.
+5415,lone_druid_true_form,['No Target'],"Lone Druid learns to morph himself into a raging bear, losing his ranged advantage and some base movement speed, but gaining melee power as well as the Battle Cry ability.  He can morph freely between druid and bear form.
+
+Upgradable by Aghanim's Scepter."
+5416,lone_druid_true_form_druid,"['No Target', 'Hidden', None]","Return to Druid form.
+
+Upgradable by Aghanim's Scepter."
+5417,lone_druid_true_form_battle_cry,"['No Target', None, 'Hidden', None, None]",Adds attack damage and armor to the Lone Druid as well as any nearby units under his control.
+5418,lone_druid_spirit_bear_return,['No Target'],Immediately teleports the Spirit Bear back to the Lone Druid.  The Spirit Bear cannot teleport if it has taken damage from a player unit in the last 3 seconds.
+5419,lone_druid_spirit_bear_entangle,['Passive'],"Attacks have a chance to cause roots to burst from the ground, immobilizing the attacked enemy unit, and dealing damage per second."
+7308,lone_druid_spirit_bear_defender,['Passive'],Spirit Bear absorbs 30% of the damage dealt to Lone Druid.
+5420,lone_druid_spirit_bear_demolish,['Passive'],"Increases the power of the Spirit Bear, causing it to deal more damage to buildings and have additional spell resistance."
+5400,brewmaster_thunder_clap,['No Target'],"Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units."
+5401,brewmaster_drunken_haze,['Unit Target'],"Drenches a target in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss."
+7310,brewmaster_cinder_brew,"['Point Target', 'AOE']","Drenches an area in alcohol, causing enemy units to have a chance to attack themselves, and combust whenever spell damage over 80 is dealt. Duration is refreshed when ignited."
+5402,brewmaster_drunken_brawler,"['No Target', 'Instant Cast']","Goes into a drunken brawler state, granting you a chance to avoid attacks and to deal critical damage. Moves with a varying amount of movement speed, alternating between -20% slower and 40% faster. Lasts 5 seconds."
+5403,brewmaster_primal_split,['No Target'],"Splits Brewmaster into elements, forming 3 specialized warriors, adept at survival. If any of them survive until the end of their summoned timer, the Brewmaster is reborn.
+
+Upgradable by Aghanim's Scepter."
+5404,brewmaster_earth_hurl_boulder,['Unit Target'],"Throws a boulder at a unit, doing damage and stunning it."
+5405,brewmaster_earth_spell_immunity,['Passive'],Immune to spells.
+5406,brewmaster_earth_pulverize,['Passive'],Deals bonus damage to buildings.
+5408,brewmaster_storm_dispel_magic,"['AOE', 'Point Target']","Damages summoned units in an area and purges most buffs or debuffs.
+
+DISPEL TYPE: Basic Dispel"
+5409,brewmaster_storm_cyclone,['Unit Target'],"Encloses a unit in a tornado, removing it from the battlefield."
+5410,brewmaster_storm_wind_walk,"['No Target', 'Instant Cast']",Provides temporary invisibility.  Bonus movement speed and attack damage when invisible.
+5411,brewmaster_fire_permanent_immolation,['Passive'],Burns nearby enemy units.
+5421,shadow_demon_disruption,['Unit Target'],"Banishes the targeted unit from the battlefield for a short duration.  Upon returning, two illusions of the banished unit are created under Shadow Demon's control."
+5422,shadow_demon_soul_catcher,"['AOE', 'Point Target']","Captures the soul of enemy units in an area, causing them to lose a percentage of their current health. When the debuff is removed, the units gain half of the lost health back. Units under the effect of Disruption can still be affected by Soul Catcher."
+5423,shadow_demon_shadow_poison,"['AOE', 'Point Target']","Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to 5 stacks. Additional stacks cause 50 damage each.  This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used."
+5424,shadow_demon_shadow_poison_release,"['No Target', None]",Releases the poison to do damage on all affected enemies. Units under the effect of Disruption can still be affected by Shadow Poison.
+5425,shadow_demon_demonic_purge,['Unit Target'],"Purges the target enemy unit, removing positive buffs, and slowing the target for the duration.  The unit slowly regains its speed until the end of the duration, upon which damage is dealt.  Units under the effect of Disruption can still be affected by Demonic Purge.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Basic Dispel"
+5426,chaos_knight_chaos_bolt,['Unit Target'],Throws a mysterious bolt of energy at the target unit. It stuns for a random duration and deals random damage.
+5427,chaos_knight_reality_rift,['Unit Target'],"Teleports you, any images you have and the target unit to a point along the line between the two of you. Slows the target's movement and attack speed."
+5428,chaos_knight_chaos_strike,['Passive'],"Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 25,40,55,70% of the damage."
+5429,chaos_knight_phantasm,['No Target'],"Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms deal 50,75,100% damage, but take 260% damage.
+
+Upgradeable by Aghanim's Scepter.
+DISPEL TYPE: Basic Dispel"
+5430,meepo_earthbind,"['AOE', 'Point Target']","Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink."
+5431,meepo_poof,"['Point Target', None, None]","Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations."
+5432,meepo_geostrike,['Passive'],
+7318,meepo_ransack,['Passive'],Steals health from the enemy with each strike and heals all other Meepos for that amount.
+5433,meepo_divided_we_stand,['Passive'],"Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.
+
+Upgradable by Aghanim's Scepter."
+5434,treant_natures_guise,['Passive'],"Turns Treant invisible after a short delay when he is within close radius of a tree. Increases movement speed while invisible, and causes a disarming root when attacking out of invisibility."
+5435,treant_leech_seed,['Unit Target'],"Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 7 times."
+5436,treant_living_armor,"['Unit Target', 'Point Target']",Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also blocks some damage from all sources. Dispels when a number of damage instances are taken.
+5437,treant_overgrowth,['No Target'],"Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking."
+5649,treant_eyes_in_the_forest,"['Unit Target', 'Hidden', None]","Treant Protector enchants a tree, which grants him unobstructed vision in that location. If Overgrowth is cast, units within a radius of an enchanted tree will be entangled and damaged."
+5438,ogre_magi_fireblast,['Unit Target'],"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target."
+5466,ogre_magi_unrefined_fireblast,['Unit Target'],"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target. Its mana cost is 60% of Ogre Magi's current mana."
+5439,ogre_magi_ignite,"['Unit Target', 'AOE']","Drenches the target and another random unit in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly."
+5440,ogre_magi_bloodlust,"['Unit Target', 'Autocast']","Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Can be cast on towers."
+5441,ogre_magi_multicast,['Passive'],Enables Ogre Magi to cast his abilities and items multiple times with each use.
+5442,undying_decay,"['AOE', 'Point Target']","Undying steals strength from all enemy heroes in an area, dealing base damage as he claims the enemy's strength for himself.
+
+Upgradable by Aghanim's Scepter."
+5443,undying_soul_rip,['Unit Target'],"Undying rips health away from all nearby units and uses it to heal an ally, or damage an enemy. Soul Rip can also be used to heal Tombstone."
+5444,undying_tombstone,['Point Target'],"Summons a tombstone at the target point.  Zombies will frequently spawn next to every enemy unit in the area around the Tombstone, and attack them.  Zombies have the Deathlust ability, which causes their attacks to slow the target, and if the target reaches below a certain amount of health, increases the attack and movement speed of the zombie."
+5445,undying_tombstone_zombie_aura,"['Passive', None, 'Hidden']",
+5446,undying_tombstone_zombie_deathstrike,['Passive'],"Slows enemy units on attack.  If the attacked unit's health goes below the threshold, the zombie receives enhanced movement and attack speed."
+5447,undying_flesh_golem,"['No Target', 'Instant Cast']",Undying transforms into a horrifying flesh golem that possesses a Plague Aura.  This aura slows all enemy units within 375 range and causes them to lose a percentage of their current health per second.
+5448,rubick_telekinesis,['Unit Target'],Rubick uses his telekinetic powers to lift the enemy into the air briefly and then hurls them back at the ground. The unit lands on the ground with such force that it stuns nearby enemies.
+5449,rubick_telekinesis_land,"['Point Target', 'Hidden', 'AOE']",Chooses the location the target will land when Telekinesis finishes.
+5450,rubick_fade_bolt,['Unit Target'],"Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage.  Each jump deals less damage."
+5451,rubick_null_field,"['No Target', 'Instant Cast', None]",Rubick's mastery of the arcane creates an aura that nullifies nearby enemy senses or increases his own. Can be toggled offensively or defensively to reduce enemy magic resistance or increase allied magic resistance.
+7320,rubick_arcane_supremacy,['Passive'],Rubick's mastery of the arcane allows him to deal more spell damage and create spells that last longer on enemies.
+5452,rubick_spell_steal,['Unit Target'],"Rubick studies the trace magical essence of one enemy hero, learning the secrets of the last spell the hero cast. Rubick can use this spell as his own for several minutes or until he dies.
+
+Upgradable by Aghanim's Scepter."
+5453,rubick_empty1,"['Passive', None]",Spells acquired with Spell Steal will replace this slot.
+5454,rubick_empty2,"['Passive', None]",Spells acquired with Spell Steal will replace this slot.
+5455,rubick_hidden1,"['Hidden', None]",
+5456,rubick_hidden2,"['Hidden', None]",
+5457,rubick_hidden3,"['Hidden', None]",
+5458,disruptor_thunder_strike,['Unit Target'],Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius.  Provides vision of its target.
+5459,disruptor_glimpse,['Unit Target'],Teleports the target hero back to where it was 4 seconds ago.  Instantly kills illusions.
+5460,disruptor_kinetic_field,"['Point Target', 'AOE']","After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass."
+5461,disruptor_static_storm,"['Point Target', 'AOE']","Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.
+
+Upgradable by Aghanim's Scepter."
+5462,nyx_assassin_impale,['Point Target'],"Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall."
+5463,nyx_assassin_mana_burn,['Unit Target'],"Destroys the target hero's mana equal to a multiplier of its Intelligence, and deals damage equal to the mana burned."
+5464,nyx_assassin_spiked_carapace,"['No Target', 'Instant Cast']","When activated while above ground, Spiked Carapace reflects and negates damage dealt to Nyx Assassin (max once from each source), as well as stunning the source of the damage. Activating Spiked Carapace will not break Vendetta invisibility.
+
+While Burrowed, Spiked Carapace instantly stuns nearby enemies when cast."
+5465,nyx_assassin_vendetta,"['Instant Cast', 'No Target', None]","Allows Nyx Assassin to become invisible and gain a speed bonus.  If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack. Applies a break status on the enemy for 4 seconds."
+5666,nyx_assassin_burrow,"['No Target', 'Hidden', None]","Nyx Assassin buries himself beneath the battlefield over a short duration. Once burrowed, Spiked Carapace instantly stuns nearby enemies when cast, the range of Mana Burn and Impale is increased, and Impale's cooldown is decreased. While burrowed, Nyx Assassin is stationary, unable to attack, and invisible. His health and mana regeneration are also increased, and he gains damage reduction from all damage sources."
+5673,nyx_assassin_unburrow,"['Hidden', 'No Target']",Emerge from the burrow.
+5467,naga_siren_mirror_image,['No Target'],"Creates multiple images of Naga Siren under her control.
+
+DISPEL TYPE: Basic Dispel"
+5468,naga_siren_ensnare,['Unit Target'],"Interrupts the target and traps them in place, preventing movement or blinking."
+5469,naga_siren_rip_tide,['Passive'],The Naga Siren and her images have a chance on attack to hit all nearby units with a damaging wave of water that lowers armor for 4 seconds.
+5470,naga_siren_song_of_the_siren,['No Target'],"All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.
+
+Upgradable by Aghanim's Scepter."
+5478,naga_siren_song_of_the_siren_cancel,"['Hidden', 'No Target']",Release enemy units from your song so they can be targeted again.
+5471,keeper_of_the_light_illuminate,"['Point Target', 'Channeled']","Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.
+
+Upgradable by Aghanim's Scepter."
+5472,keeper_of_the_light_mana_leak,['Unit Target'],"Weakens an enemy's magical essence, causing them to lose mana as they move.  If the enemy loses all of its mana, it will be stunned."
+7316,keeper_of_the_light_will_o_wisp,"['Point Target', 'AOE']","Summons Ignis Fatuus at the targeted area. Alternates on and off every second. When active, it causes all enemies near it to stare hypnotized at it. Can be attacked by units outside of the radius, dies after a certain number of attacks."
+5473,keeper_of_the_light_chakra_magic,['Unit Target'],Restores mana to the target unit and reduces cooldowns of all abilities currently on cooldowns by a fixed amount.
+5501,keeper_of_the_light_empty1,"['Passive', None]",
+5502,keeper_of_the_light_empty2,"['Passive', None]",
+5474,keeper_of_the_light_spirit_form,['No Target'],"Ezalor temporarily turns his body luminescent, gaining various abilities.  Illuminate is now channeled by a separate spirit, and gains the Blinding Light and Recall abilities.
+
+Upgradable by Aghanim's Scepter."
+5475,keeper_of_the_light_recall,"['Point Target', 'Channeled', 'Unit Target', 'No Target', None, None]","After a short delay, teleports the targeted friendly hero to your location.  If the targeted friendly hero takes player based damage during this time, the ability is interrupted."
+5476,keeper_of_the_light_blinding_light,"['AOE', 'Point Target']","A blinding light flashes over the targeted area, knocking back and blinding the units in the area, causing them to miss attacks."
+5477,keeper_of_the_light_illuminate_end,"['No Target', None, 'Hidden']",Release the channel early.
+5479,keeper_of_the_light_spirit_form_illuminate,"['Point Target', 'Hidden', None]","Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.
+
+Upgradable by Aghanim's Scepter."
+5503,keeper_of_the_light_spirit_form_illuminate_end,"['No Target', None, 'Hidden']",Release the channel early.
+5480,visage_grave_chill,['Unit Target'],"Visage drains the movement and attack speed of the targeted unit, gaining it for itself."
+5481,visage_soul_assumption,['Unit Target'],"Visage gathers charges of soul essence each time nearby heroes take more than 110 damage. When the essence is released, it deals base damage as well as damage for each gathered soul charge."
+5482,visage_gravekeepers_cloak,['Passive'],"Visage generates a layered barrier that protects him from damage.  If he receives damage from a player, one layer is removed, and takes time to recover."
+5483,visage_summon_familiars,"['No Target', 'Instant Cast']","Conjures two blind Familiars to fight for Visage.  Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing.  While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health.  Familiars grant high bounty when killed.
+
+Upgradable by Aghanim's Scepter."
+7116,visage_stone_form_self_cast,"[None, 'No Target', 'Instant Cast', None]","After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After 6 seconds, the Familiar will automatically leave Stone Form."
+5484,visage_summon_familiars_stone_form,"['No Target', 'AOE']","After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After 6 seconds, the Familiar will automatically leave Stone Form."
+5485,wisp_tether,['Unit Target'],"Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether."
+5486,wisp_spirits,"['No Target', 'Instant Cast']","Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode."
+5487,wisp_overcharge,"['No Target', 'Instant Cast']","Io gains bonus attack speed and damage reduction.  If Io is Tethered to an ally, that unit also gains the bonuses."
+5488,wisp_relocate,['Point Target'],Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain.
+5489,wisp_tether_break,"['Hidden', 'No Target']",Break the link to the tethered unit.
+5490,wisp_spirits_in,"['No Target', 'Instant Cast', None, None, 'Hidden', None]",Calls the spirits in and out.
+5493,wisp_spirits_out,"['No Target', 'Instant Cast', None, None]",Sends the spirits farther away from you. Can be toggled on and off.
+5494,slark_dark_pact,"['No Target', 'Instant Cast']","After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 50% of the damage.
+
+DISPEL TYPE: Strong Dispel"
+5495,slark_pounce,['No Target'],"Slark leaps forward, grabbing the first hero he connects with.  That unit is leashed, and can only move a limited distance away from Slark's landing position."
+5496,slark_essence_shift,['Passive'],"Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility. If Slark kills an affected enemy hero, he permanently steals 1 Agility."
+5497,slark_shadow_dance,"['Instant Cast', 'No Target']","When used, Slark hides himself in a cloud of shadows, becoming immune to detection. Attacking, casting spells, and using items will not reveal Slark.  Passively, when not visible to the enemy team, Slark gains bonus movement speed and health regeneration.
+
+Upgradable by Aghanim's Scepter."
+5504,medusa_split_shot,['Passive'],"Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.
+
+The extra targets will not receive other attack effects (such as critical strike)."
+5505,medusa_mystic_snake,['Unit Target'],"A mystic snake made of energy jumps from target to target dealing damage and stealing mana. After it reaches its last target, it returns to Medusa to replenish her with mana. The snake deals more damage per jump and steals 11,14,17,20% of the targets' total mana. Deals Pure damage to units petrified by Stone Gaze.
+
+Upgradable by Aghanim's Scepter."
+5506,medusa_mana_shield,"['No Target', 'Instant Cast']",Creates a shield that absorbs 60% of the incoming damage in exchange for Medusa's mana.
+5507,medusa_stone_gaze,['No Target'],"Any enemy units looking at Medusa will have their movement and attack speed slowed.  If 2 seconds of total time is accumulated looking at Medusa while Stone Gaze is active, that unit will turn to stone.  Petrified units are stunned, and take bonus physical damage."
+5508,troll_warlord_berserkers_rage,"['No Target', 'Instant Cast']","While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to ensnare, preventing the target from moving or using mobility spells. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.
+
+Whirling Axes has different functionality while Berserker's Rage is active."
+5509,troll_warlord_whirling_axes_ranged,"['Unit Target', 'Point Target']","Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units."
+5510,troll_warlord_whirling_axes_melee,"['No Target', 'Instant Cast']","Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks."
+5511,troll_warlord_fervor,['Passive'],"With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero."
+5512,troll_warlord_battle_trance,"['No Target', 'Instant Cast']","Troll unleashes a powerful battle trance, that forces you to continuously attack the closest enemy unit within 900 range, prioritizing heroes. Damage does not kill you during this mode. Grants you bonus lifesteal, attack speed and movement speed. Applies a Basic Dispel. "
+5514,centaur_hoof_stomp,['No Target'],"Slams the ground, stunning and damaging nearby enemy units."
+5515,centaur_double_edge,['Unit Target'],"Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target. Deals extra damage based on your strength. Centaur cannot die from Double Edge."
+5516,centaur_return,"['No Target', 'Instant Cast']","Centaur counters all attacks, dealing damage back to the attacker. Each time Centaur gets attacked by a hero or a tower, he gains a charge counter. Can be cast to consume all charges, granting you a percentage base damage increase for 20 seconds."
+5517,centaur_stampede,"['No Target', 'Instant Cast']","Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once.
+
+Upgradable by Aghanim's Scepter."
+5518,magnataur_shockwave,"['Unit Target', 'Point Target']","Magnus sends out a wave of force, damaging enemy units in a line and pulling them towards him.
+
+Upgradable by Aghanim's Scepter."
+5519,magnataur_empower,['Unit Target'],Gives an allied unit bonus damage and cleave on attack.
+5520,magnataur_skewer,['Point Target'],"Magnus rushes forward, goring enemy units on his massive tusk. Heroes hit on the way will be dragged to the destination, then damaged and affected by slowed movement and attack speed."
+5521,magnataur_reverse_polarity,['No Target'],"Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage."
+5524,shredder_whirling_death,"['No Target', 'Instant Cast']","Timbersaw whirls extremely sharp edges, damaging enemies and destroying trees around him in an area.  If an enemy hero is affected, it loses some of its primary attribute for a short duration.  Whirling Death will deal bonus damage per tree destroyed."
+5525,shredder_timber_chain,['Point Target'],"Timbersaw fires a chain that embeds itself in the first tree it hits, pulling him towards it.  Any enemy in the path takes damage."
+5526,shredder_reactive_armor,['Passive'],"Each time Timbersaw is attacked, he gains increased health regen and armor."
+5527,shredder_chakram,"['Point Target', 'AOE']","Fires your main saw blade at the target location where it will spin in place, dealing damage in an area around it.  Enemies caught in the saw blade will move more slowly for every 5% of health missing. The blade deals damage and cuts down trees in its path when fired and retracted.  While active the ability costs mana, and you lose the ability to attack.
+
+Upgradable by Aghanim's Scepter."
+5645,shredder_chakram_2,"['Point Target', 'AOE', None, 'Hidden', None]","Fires a secondary saw blade at the target location where it will spin in place, dealing damage in an area around it.  Additionally, for each 5% of health missing, enemies caught in the saw blade move more slowly. The blade deals damage and cuts down trees in its path when fired and retracted.  While active the ability costs mana, and you lose the ability to attack."
+5528,shredder_return_chakram,"['No Target', 'Instant Cast', None, None, 'Hidden']",Returns the Chakram to Timbersaw.
+5646,shredder_return_chakram_2,"['No Target', 'Instant Cast', None, None, 'Hidden']",Returns the Chakram to Timbersaw.
+5548,bristleback_viscous_nasal_goo,['Unit Target'],"Covers a target in snot, causing it to have reduced armor and movement speed.  Multiple casts stack and refresh the duration.
+
+Upgradable by Aghanim's Scepter."
+5549,bristleback_quill_spray,"['No Target', 'Instant Cast']",Sprays enemy units with quills dealing damage in an area of effect around Bristleback.  Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.
+5550,bristleback_bristleback,['Passive'],"Bristleback takes less damage if hit on the sides or rear.  If Bristleback takes 210 damage from the rear, he releases a Quill Spray of the current level."
+5551,bristleback_warpath,['Passive'],"Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage."
+5565,tusk_ice_shards,"[None, 'Point Target']","Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 4,5,6,7 seconds."
+5668,tusk_ice_shards_stop,"['Hidden', 'No Target']",Stop.
+5566,tusk_snowball,['Unit Target'],"Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage."
+5641,tusk_launch_snowball,"['Hidden', 'No Target', None, 'Instant Cast']",Launch the snowball toward the target.
+5567,tusk_frozen_sigil,['No Target'],Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.
+7322,tusk_tag_team,"['No Target', 'Instant Cast']","Temporarily applies a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts 5 seconds."
+5568,tusk_walrus_punch,"['Unit Target', 'Autocast', 'Attack Modifier']","Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing."
+5672,tusk_walrus_kick,"['Unit Target', 'Hidden', None]","Kicks the target unit back, damaging them and slowing their movement speed."
+5581,skywrath_mage_arcane_bolt,['Unit Target'],"Skywrath Mage launches a slow-moving bolt of arcane magic, dealing damage to an enemy unit based on Skywrath Mage's intelligence."
+5582,skywrath_mage_concussive_shot,['No Target'],"Skywrath Mage sets off a long range shot that hits the closest hero within a long range.  Upon impact, it deals damage and slows in an area of effect."
+5583,skywrath_mage_ancient_seal,['Unit Target'],"Skywrath Mage seals the targeted unit with an ancient rune, silencing it and causing it to take additional damage from spells."
+5584,skywrath_mage_mystic_flare,"['Point Target', 'AOE']","Skywrath Mage uses his ultimate magical ability to conjure a precise and violent mystical field that lays waste to his adversaries. Deals massive damage distributed evenly among any Heroes in the area over 2.4 seconds.
+
+Upgradable by Aghanim's Scepter."
+5585,abaddon_death_coil,['Unit Target'],Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.
+5586,abaddon_aphotic_shield,['Unit Target'],"Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.
+
+DISPEL TYPE: Strong Dispel"
+5587,abaddon_frostmourne,['Passive'],"Abaddon strikes an enemy, slowing the target's movement speed. If the target gets hit 4 times, they become affected by a chilling curse causing them to be silenced and slowed, and all attacks against them gain an attack speed boost."
+5588,abaddon_borrowed_time,"['No Target', 'Instant Cast']","When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Strong Dispel"
+5589,elder_titan_echo_stomp,"['No Target', 'Channeled']","Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations.  The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage."
+5590,elder_titan_echo_stomp_spirit,"['No Target', 'Channeled']","Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations.  The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage.  Unconscious enemies will wake if they take damage."
+5591,elder_titan_ancestral_spirit,"['Point Target', 'AOE']","Elder Titan sends forth his Astral Spirit, damaging any units it passes through.  When the spirit rejoins the Titan, it grants bonus damage and movement speed for each unit it passed through.
+
+The Astral Spirit possesses the Echo Stomp, Return Spirit, and Natural Order abilities."
+5592,elder_titan_return_spirit,"['Instant Cast', 'No Target', None, 'Hidden', None]",Returns the Astral Spirit to Elder Titan.
+5593,elder_titan_natural_order,"['Passive', None]","Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units. The armor reduction is centered around the hero, while the magic armor reduction is centered around Astral Spirit."
+5750,elder_titan_natural_order_spirit,"['Passive', None]","Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units. The armor reduction is centered around the hero, while the magic armor reduction is centered around Astral Spirit."
+5594,elder_titan_earth_splitter,['Point Target'],"Sends forth a jagged crack in front of Elder Titan. After 3 seconds, the crack implodes, slowing movement while dealing damage to each enemy based on their maximum life. Half of the damage dealt is Magical damage, while the other half is Physical damage.
+
+Upgradable by Aghanim's Scepter."
+5595,legion_commander_overwhelming_odds,"['AOE', 'Point Target']","Turns the enemies' numbers against them, dealing damage and granting you bonus movement speed per unit or per hero.  Deals bonus damage to illusions and summoned units as a percent of their current health."
+5596,legion_commander_press_the_attack,['Unit Target'],"Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.
+
+DISPEL TYPE: Strong Dispel"
+5597,legion_commander_moment_of_courage,['Passive'],"When attacked, Legion Commander has a chance to immediately counterattack with bonus lifesteal."
+5598,legion_commander_duel,['Unit Target'],"Legion Commander and the target enemy hero are forced to attack each other for a short duration.  Neither hero can use items or abilities.  If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.
+
+Upgradable by Aghanim's Scepter."
+5603,ember_spirit_searing_chains,['No Target'],"Ember Spirit unleashes fiery bolas that wrap around nearby enemies, anchoring them in place and dealing damage each second."
+5604,ember_spirit_sleight_of_fist,"['Point Target', 'AOE']","Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes, and less damage to creeps."
+5605,ember_spirit_flame_guard,['No Target'],"Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, leaving him unharmed.  Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active.  If the shield is broken, the damage is also lost."
+5606,ember_spirit_fire_remnant,['Point Target'],"Ember Spirit generates Fire Remnant charges every 38 seconds, with a max of 3 charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last."
+5607,ember_spirit_activate_fire_remnant,"['Point Target', None, None]",Select the Fire Remnant to arrive at.
+5608,earth_spirit_boulder_smash,"['Point Target', 'Unit Target']","Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest Stone Remnant in a 200 radius. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units."
+5609,earth_spirit_rolling_boulder,['Point Target'],"Earth Spirit gathers himself into a boulder and, after a 0.6s delay, rolls toward the target location, damaging and stunning enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer."
+5610,earth_spirit_geomagnetic_grip,"['Point Target', 'Unit Target']",Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced and take damage.
+5611,earth_spirit_stone_caller,"['Point Target', None, None]","Call a Stone Remnant to the target location.  Stone Remnants have no vision and are invulnerable, and can be used with Earth Spirit's abilities.  Calling a Stone Remnant consumes a charge, which recharge over time."
+5648,earth_spirit_petrify,"['Unit Target', 'Hidden', None]","Earth Spirit temporarily enchants a hero, granting them the properties of a Stone Remnant. After a short duration the remnant shatters, releasing the hero and damaging nearby enemies."
+5612,earth_spirit_magnetize,['No Target'],"Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects."
+5613,abyssal_underlord_firestorm,"['Point Target', 'AOE']","Calls down waves of fire that damage enemy units in the target area, burning for additional damage over time."
+5614,abyssal_underlord_pit_of_malice,"['Point Target', 'AOE']",A deadly pit is conjured at the target location; any unit that enters will be rooted. Each enemy unit within the pit are affected every 3.6 seconds.
+5615,abyssal_underlord_atrophy_aura,"['Passive', None]","Nearby enemy units are weakened, losing a portion of their base damage. If a unit dies while under this effect, Underlord gains bonus damage.
+
+Upgradable by Aghanim's Scepter."
+5616,abyssal_underlord_dark_rift,"['Point Target', 'Unit Target']","Opens a dark rift at the targeted friendly unit's position.  After a short delay, Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown."
+5617,abyssal_underlord_cancel_dark_rift,"['No Target', None, 'Hidden']",Stop the teleport.
+5619,terrorblade_reflection,['No Target'],Terrorblade brings forth an invulnerable dark reflection of all nearby enemy heroes. Affected enemy heroes are slowed and attacked by their reflection.
+5620,terrorblade_conjure_image,['No Target'],Creates an illusion of Terrorblade that deals damage.
+5621,terrorblade_metamorphosis,"['No Target', 'Instant Cast']",Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within 1200 range will also be transformed by Metamorphosis.
+5622,terrorblade_sunder,['Unit Target'],"Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain."
+5623,phoenix_icarus_dive,['Point Target'],"Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends."
+5624,phoenix_icarus_dive_stop,"['Instant Cast', 'No Target', None, 'Hidden']",Immediately cancels the dive.
+5625,phoenix_fire_spirits,"['No Target', 'Instant Cast']",Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.
+5626,phoenix_sun_ray,['Point Target'],Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire.
+5627,phoenix_sun_ray_stop,"['No Target', None, 'Hidden', 'Instant Cast']",Immediately stops the Sun Ray.
+5628,phoenix_sun_ray_toggle_move,"['No Target', None, 'Instant Cast']",Toggles slow forward movement during Sun Ray firing.
+5630,phoenix_supernova,['No Target'],"The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.
+
+Upgradable by Aghanim's Scepter.
+
+DISPEL TYPE: Strong Dispel"
+5631,phoenix_launch_fire_spirit,"['Point Target', 'AOE', 'Hidden']",Each fire spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced. Reveals the area it strikes for 1 second.
+5637,oracle_fortunes_end,"['Unit Target', 'AOE', 'Channeled', None]","CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to 2.5 seconds. The root duration is equal to the time spent channeling.
+
+DISPEL TYPE: Basic Dispel"
+5638,oracle_fates_edict,['Unit Target'],"Oracle enraptures a target, disarming them and granting them 100% magic damage resistance. Can be cast on allies and enemies."
+5639,oracle_purifying_flames,['Unit Target'],"Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.
+
+Upgradable by Aghanim's Scepter."
+5640,oracle_false_promise,['Unit Target'],"Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.
+
+DISPEL TYPE: Strong Dispel"
+5643,broodmother_spin_web_destroy,"[None, 'No Target', 'Instant Cast']",Destroys the selected Spin Web.
+5716,monkey_king_boundless_strike,"['Point Target', None]","Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike."
+5719,monkey_king_mischief,"['No Target', None]","Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants damage immunity for 0.2 upon transforming."
+5722,monkey_king_untransform,"['No Target', None, 'Hidden']",Reverts Monkey King's shape to his original form.
+5721,monkey_king_tree_dance,['Unit Target'],"Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown."
+5724,monkey_king_primal_spring,"['Point Target', 'AOE', 'Channeled', None]","Monkey King springs out from his tree perch, damaging and slowing enemies in the area where he lands. Damage and slow amounts are in proportion to channel duration."
+5726,monkey_king_primal_spring_early,"['Hidden', 'No Target', None, 'Instant Cast']",
+5725,monkey_king_wukongs_command,"['Point Target', 'AOE', None]",Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration.
+5723,monkey_king_jingu_mastery,['Passive'],"Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal."
+6344,pangolier_swashbuckle,['Point Target'],"Vector Targeted. Pangolier dashes along the target line, then slashes all enemies in the drawn direction with several quick swipes.
+
+Lucky Shot has a chance to activate from this damage."
+6461,pangolier_shield_crash,"['No Target', 'Instant Cast']","Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.
+
+Forward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs."
+6346,pangolier_heartpiercer,['Passive'],"Pangolier reads his enemies perfectly, deftly slipping his blade past defenses. Each attack has a chance to negate enemy armor and slow the target for a duration, activating after a short delay."
+7307,pangolier_lucky_shot,['Passive'],Pangolier rolls the dice and lets fate decide the outcome for his enemies. Grants a chance to slow and apply either a Silence or a Disarm.
+6343,pangolier_gyroshell,['No Target'],"Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. 
+
+Colliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.
+
+DISPEL TYPE: Basic Dispel"
+6459,pangolier_gyroshell_stop,"['No Target', None, 'Hidden', 'Instant Cast']",Halt!
+6339,dark_willow_bramble_maze,"['Point Target', 'AOE']",Dark Willow creates a maze of brambles that grow in the target area after 0.5 seconds.  Enemies that walk into a bramble are rooted and take damage over time.
+6340,dark_willow_bedlam,"['No Target', 'Instant Cast']","Dark Willow's pet wisp roams around her for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active."
+8340,dark_willow_terrorize,"['Point Target', 'AOE', None]","Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active."
+6341,dark_willow_shadow_realm,"['No Target', 'Instant Cast', None]","Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3 seconds."
+6342,dark_willow_cursed_crown,['Unit Target'],"Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned."
+8000,grimstroke_dark_artistry,['Point Target'],"Grimstroke paints a path of ink with his brush, damaging and slowing enemies. The damage is increased with each enemy the ink hits."
+8006,grimstroke_ink_creature,['Unit Target'],"Summons a phantom that moves quickly towards the target, latching to it when she arrives. Once latched, the phantom damages and silences. If she survives the full latch duration she rends her victim for heavy damage and refreshes Phantom's Embrace's cooldown.
+
+Hero attacks against the phantom count as 3 attacks each."
+8007,grimstroke_spirit_walk,['Unit Target'],"Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After 3 seconds it triggers, applying damage and stun in an area around the unit in proportion to how long ink tendril was near any hero."
+6491,grimstroke_soul_chain,"['Unit Target', 'AOE']","Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius."
+6583,mars_spear,"['Point Target', None]","Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned."
+6495,mars_gods_rebuke,"['Point Target', None]","Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike."
+6582,mars_bulwark,['Passive'],Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides.
+6598,mars_arena_of_blood,"[None, 'AOE']","After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back."
+6759,special_bonus_unique_mars_spear_bonus_damage,[nan],
+6756,special_bonus_unique_mars_gods_rebuke_extra_crit,[nan],
+6584,special_bonus_unique_mars_spear_stun_duration,[nan],
+6766,special_bonus_unique_mars_arena_of_blood_hp_regen,[nan],
+5350,backdoor_protection,['Passive'],"Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby."
+5351,backdoor_protection_in_base,['Passive'],"Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby."
+6226,filler_ability,['Passive'],Generates an aura that provides increased health and mana regeneration to nearby allies when activated.
+5200,necronomicon_warrior_last_will,['Passive'],Deals damage to the unit that kills the Necronomicon Warrior.
+5201,necronomicon_warrior_sight,['Passive'],Reveals invisible units.
+5202,necronomicon_warrior_mana_burn,['Passive'],"Mana burned per hit, a portion of which is dealt as damage."
+5203,necronomicon_archer_mana_burn,['Unit Target'],"Launches an arrow that burns away the targeted unit's mana, dealing damage equal to the amount of mana burned."
+8203,necronomicon_archer_purge,['Unit Target'],"Removes positive buffs from enemies and slow their movement speed.
+
+DISPEL TYPE: Basic Dispel"
+5204,necronomicon_archer_aoe,['Passive'],Increases movement and attack speed of nearby units.
+84,courier_autodeliver,['No Target'],Toggle auto delivering of items.
+5205,courier_return_to_base,['No Target'],Returns the courier to base
+5492,courier_go_to_secretshop,['No Target'],Sends the courier to your team's secret shop
+5206,courier_transfer_items,['No Target'],Transfer items to hero
+6328,courier_transfer_items_to_other_player,"['Unit Target', 'Hidden', None]",
+5207,courier_return_stash_items,['No Target'],Return items to stash
+5208,courier_take_stash_items,['No Target'],Retrieve items from stash
+5676,courier_take_stash_and_transfer_items,"['Hidden', 'No Target']",
+5209,courier_shield,"['No Target', 'Instant Cast']",Summons a protective shield around the courier
+5210,courier_burst,"['No Target', 'Instant Cast', None]",The courier gains a burst of speed for 4 seconds
+5642,courier_morph,"['Hidden', 'No Target', 'Instant Cast', None]",
+6329,courier_go_to_enemy_secretshop,"['Hidden', 'No Target']",
+6333,courier_go_to_sideshop,"['Hidden', 'No Target']",
+6334,courier_go_to_sideshop2,"['Hidden', 'No Target']",
+5213,roshan_spell_block,['Passive'],
+5618,roshan_halloween_spell_block,['Passive'],
+5214,roshan_bash,['Passive'],
+5215,roshan_slam,['No Target'],
+5216,roshan_inherent_buffs,"['Hidden', 'Passive']",
+5217,roshan_devotion,"['Hidden', 'Passive']",
+5293,kobold_taskmaster_speed_aura,['Passive'],The Kobold Foreman's cruel efficiency increases his movement speed and the movement speed of all nearby allies.
+5294,centaur_khan_endurance_aura,['Passive'],The fearsome Hellbear Smasher attacks more quickly and bullies nearby allies into following suit.
+5295,centaur_khan_war_stomp,['No Target'],"The Centaur Conqueror's powerful hooves stomp the ground, stunning and damaging nearby enemies. Heroes recover more quickly."
+6270,spawnlord_master_stomp,['No Target'],"Stomps the ground, dealing damage to nearby units and reducing their base physical armor by 50%."
+6278,spawnlord_master_freeze,"['Unit Target', 'Autocast', 'Attack Modifier']","Causes the next attack to petrify the enemy, rooting them and dealing 75 damage per second."
+5296,gnoll_assassin_envenomed_weapon,['Passive'],The Vhoul Assassin has soaked his weapons in his own blend of painful predator venoms. Heroes recover from the poison more quickly.
+5301,ghost_frost_attack,['Passive'],The Ghost launches an eerie attack that chills her enemies to their bones.
+5302,polar_furbolg_ursa_warrior_thunder_clap,['No Target'],"The Hellbear Smasher claps his massive hands together, creating a deafening blast. The blast damages nearby enemies and throws them off their footing."
+5303,neutral_spell_immunity,['Passive'],This creature does not feel the effects of most magical spells.
+5304,ogre_magi_frost_armor,['Unit Target'],"The Ogre Frostmage summons an invisible layer of icy air that surrounds the target friendly unit, increasing its armor and temporarily slowing any melee enemies that dare attack it."
+5305,dark_troll_warlord_ensnare,['Unit Target'],"The Dark Troll Summoner tosses netting around an enemy's feet, briefly immobilizing the unit, though the unit can still attack and use abilities. Interrupts channeling abilities."
+5306,dark_troll_warlord_raise_dead,['No Target'],"The Dark Troll Summoner stirs the ground underfoot, raising the remains of trolls long dead, bringing to life two skeleton Warriors who will fight at his side."
+5667,mud_golem_rock_destroy,['Passive'],"On death, Mud Golems shatter into 2 Shard Golems. Shard Golems have 240 health, deal 9 damage per attack, and live for 60 seconds."
+5670,mud_golem_hurl_boulder,['Unit Target'],"Hurls a boulder at the target, damaging and stunning them. Golems do not do this unless commanded to."
+5307,giant_wolf_critical_strike,['Passive'],"The Giant Wolf's ferocious attacks occasionally tear a vital tendon, inflicting critical damage."
+5308,alpha_wolf_critical_strike,['Passive'],"The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage."
+5309,alpha_wolf_command_aura,['Passive'],The Alpha Wolf's ruthless attacks do extra damage. His commanding presence inspires nearby allies to attack ruthlessly as well.
+5310,tornado_tempest,['Passive'],"The Tornado's overpowering winds slow all nearby enemies, flinging debris at them and inflicting damage every second. Enemies closer to the center of the Tornado take more damage."
+5312,enraged_wildkin_tornado,"['Point Target', 'Channeled']","CHANNELED - The Wildwing Ripper calls on the spirit of the wind, creating a sentient Tornado that he can control. The Tornado slows nearby enemies and does damage. It is invulnerable and can move anywhere."
+5313,enraged_wildkin_toughness_aura,['Passive'],The Wildwing Ripper's fury numbs it to attacks and inspires nearby allies to withstand more blows.
+5656,granite_golem_hp_aura,['Passive'],Increases the health capacity of nearby units.
+5680,granite_golem_bash,['Passive'],
+5314,satyr_trickster_purge,['Unit Target'],"The Satyr Banisher knows every trick in the book, allowing him to remove debuffs from allies or buffs from enemies. His trickery also slows the enemy's movement.
+
+DISPEL TYPE: Basic Dispel"
+5315,satyr_soulstealer_mana_burn,['Unit Target'],"The Satyr Mindstealer removes a fragment of his enemy's soul, burning away some mana and dealing damage equal to the amount of mana burned."
+5316,satyr_hellcaller_shockwave,"['Unit Target', 'Point Target']","The Satyr Tormenter tears open an unstable rift to the underworld, creating a shockwave that travels in a line along the ground, dealing damage to enemies it hits."
+5686,ancient_golem_rockslide,"['Unit Target', 'Point Target']",
+5317,satyr_hellcaller_unholy_aura,['Passive'],"The Satyr Tormenter's demonic communion allows him to emanate regenerative power, increasing the health regeneration of himself and all nearby allies."
+5318,forest_troll_high_priest_heal,"['Unit Target', 'Autocast']","The Hill Troll Priest lays his holy blessing upon the target ally, replenishing some health."
+5319,harpy_storm_chain_lightning,['Unit Target'],"The Harpy Stormcrafter releases a high-voltage bolt of electricity at the target enemy, dealing damage. The bolt jumps to other nearby enemies, losing power with each jump."
+5682,big_thunder_lizard_wardrums_aura,['Passive'],The rhythm of the Thunderhide's heartbeat increases the attack speed and attack damage of nearby allies.
+5681,black_dragon_dragonhide_aura,['Passive'],The Ancient Black Dragon's dreaded presence grants nearby allies additional armor. This bonus can stack with itself.
+5689,black_dragon_fireball,"['Point Target', 'AOE']","The Black Dragon hurls a fire blast on the ground, igniting the area in a 300 radius for 10 seconds. Enemies caught in the fire will take 85 damage per second."
+5688,mudgolem_cloak_aura,['Passive'],This creature protects its allies with a Magic resistance aura. Creeps are better protected.
+5324,black_dragon_splash_attack,['Passive'],The Black Dragon's explosive attacks are felt by all nearby enemies.
+5325,blue_dragonspawn_sorcerer_evasion,['Passive'],"The Drakken Sentinel has assumed a partially ethereal form, making him difficult to hit with attacks."
+5326,blue_dragonspawn_overseer_evasion,['Passive'],"The Drakken Armorer moves about quickly, making him difficult to hit with attacks."
+6125,spawnlord_aura,['Passive'],Gives lifesteal and health regeneration to nearby allies.
+6126,spawnlord_master_bash,['Passive'],
+5327,blue_dragonspawn_overseer_devotion_aura,['Passive'],"The Drakken Armorer is wholly devoted to his cause, increasing his tolerance for physical attacks. Nearby allies are similarly devoted to the Overseer and are able to withstand more blows."
+5332,big_thunder_lizard_slam,['No Target'],The Ancient Thunderhide slams his mammoth body against the ground. The shock damages nearby enemies and throws them off their footing. Heroes regain their balance more quickly.
+5333,big_thunder_lizard_frenzy,['Unit Target'],"The Ancient Thunderhide works an ally into a frenzy, causing his ally to have increased attack speed."
+5491,forest_troll_high_priest_mana_aura,['Passive'],Provides bonus mana regeneration to all nearby allies.
+9990,roshan_halloween_candy,"['Hidden', 'Passive']",
+9991,roshan_halloween_angry,"['Hidden', 'Passive']",
+9993,roshan_halloween_wave_of_force,['No Target'],"After a delay, Roshan smashes the ground, causing massive radial damage in an area around him, knocking back all enemies.  The closer to Roshan the enemy is, the more damage it takes."
+9994,roshan_halloween_greater_bash,"['Hidden', 'Passive']",
+9995,roshan_halloween_toss,"['Unit Target', 'AOE']",Roshan tosses a nearby enemy unit at an enemy that is further away.
+9997,roshan_halloween_shell,"['Instant Cast', 'No Target']","Roshan becomes immune to physical damage, but takes enhanced magical damage for a brief time.  When Roshan uses Shell, all ability and item cooldowns are refreshed."
+9998,roshan_halloween_apocalypse,['No Target'],"Roshan launches devastating beams of incineration from the sky at all enemy heroes outside of 400 range, but within 1200 range."
+9999,roshan_halloween_burn,"['AOE', 'Point Target']",Roshan breathes a lethal arc of searing fire.
+10000,roshan_halloween_levels,"['Hidden', 'Passive']",
+10001,roshan_halloween_summon,['No Target'],Roshan calls a group of Roshlings to aid him.
+10002,roshan_halloween_fireball,['AOE'],Roshan launches a number of slow moving fireballs at all nearby enemies.
+5529,greevil_magic_missile,['Unit Target'],"BLUE ESSENCE
+Fires a greevilish magic missile at an enemy unit, stunning and dealing damage."
+5530,greevil_cold_snap,"['Unit Target', None]","The greevil draws the heat from an enemy, chilling them to their very core. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage."
+5531,greevil_decrepify,['Unit Target'],"RED ESSENCE
+A powerful banishing spell that slows a unit and renders it unable to attack or be attacked. Afflicted units take extra magic damage."
+5532,greevil_diabolic_edict,['No Target'],"Saturates the area around the Greevil with magical explosions that deal mixed damage to enemy units and structures.  The fewer units available to attack, the more damage those units will take."
+5533,greevil_maledict,"['AOE', 'Point Target']","PURPLE ESSENCE
+Curses all enemy Heroes in an area, causing them to take damage every 4 seconds and adding bonus damage for every 100 HP lost since the curse began."
+5534,greevil_shadow_strike,['Unit Target'],"PURPLE ESSENCE
+Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed.  An instance of damage is dealt every 3 seconds."
+5535,greevil_laguna_blade,['Unit Target'],"RED EGG
+Fires off a bolt of lightning at a single enemy unit, dealing massive damage."
+5546,greevil_poison_nova,['No Target'],"PURPLE EGG
+A spreading ring of poison that does damage over time to enemy units.  Poison Nova's effect cannot bring units below 1 HP."
+5547,greevil_ice_wall,"['No Target', None]","BLUE ESSENCE
+Generates a wall of solid ice directly in front of the Greevil. The bitter cold emanating from it greatly slows nearby enemies and deals damage each second."
+5552,greevil_fatal_bonds,['Unit Target'],"ORANGE ESSENCE
+Binds several enemy units together, causing a portion of the damage dealt to one of them to be felt by the others."
+5553,greevil_blade_fury,"['No Target', 'Instant Cast', None]","ORANGE ESSENCE
+Causes a bladestorm of destructive force around the Greevil, rendering him immune to magic and dealing damage to nearby enemy units."
+5554,greevil_phantom_strike,['Unit Target'],"YELLOW ESSENCE
+Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit."
+5555,greevil_time_lock,['Passive'],"YELLOW ESSENCE
+Adds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage."
+5556,greevil_shadow_wave,['Unit Target'],"GREEN ESSENCE
+Shadow Wave heals several allies, which in turn cause damage equal to their healing in a small area around them.  The Greevil is always healed by Shadow Wave, and it does not count toward the number of targets."
+5557,greevil_leech_seed,['Unit Target'],"GREEN ESSENCE
+Plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it equal to the amount drained.  Pulses 4 times."
+5558,greevil_echo_slam,['No Target'],"ORANGE EGG
+Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units."
+5559,greevil_natures_attendants,['No Target'],"GREEN EGG
+A cloud of wisps heals Enchantress and any friendly units nearby.  Lasts 10 seconds."
+5560,greevil_bloodlust,"['Unit Target', 'Autocast']","YELLOW EGG
+Incites a frenzy in a friendly unit, increasing its movement speed and attack speed."
+5561,greevil_purification,['Unit Target'],"WHITE EGG
+Instantly heals a friendly unit and damages all nearby enemy units."
+5562,greevil_flesh_golem,"['No Target', 'Instant Cast']","BLACK EGG
+The Greevil transforms into a horrifying greevil golem, increasing his health regen, armor, and attack damage.  Nearby units have their armor reduced."
+5563,greevil_hook,['Point Target'],"PURPLE ESSENCE
+Launches a hook at a unit or location. The hook will snag the first unit it encounters, dragging the unit back to the Greevil and dealing damage if it is an enemy."
+5564,greevil_rot,"['No Target', None]","RED ESSENCE
+A toxic cloud that deals intense damage and slows movement--harming not only enemy units but the Greevil itself."
+5569,greevil_black_hole,"['AOE', 'Point Target', 'Channeled']","BLUE EGG
+CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Greevil Hole cannot move, attack, or cast spells.  The closer units get to the center, the more damage is dealt."
+5536,greevil_miniboss_black_nightmare,['Unit Target'],"Puts the target enemy or friendly Hero to sleep and deals damage per second.  Sleeping units are awakened when attacked, but the Greevilmare passes to the attacking unit.  The nightmared unit instantly wakes up if it takes damage."
+5537,greevil_miniboss_black_brain_sap,['Unit Target'],"Feasts on the vital energies of an enemy unit, dealing damage and gaining health equal to the damage dealt."
+5538,greevil_miniboss_blue_cold_feet,['Unit Target'],"Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds."
+5539,greevil_miniboss_blue_ice_vortex,"['AOE', 'Point Target']",Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.  Lasts 12 seconds.
+5540,greevil_miniboss_red_earthshock,['No Target'],"Slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds."
+5541,greevil_miniboss_red_overpower,['No Target'],Gains increased attack speed for a number of subsequent attacks.
+5542,greevil_miniboss_yellow_ion_shell,['Unit Target'],Surrounds the target unit with a bristling shield that damages enemy units in an area around it.
+5543,greevil_miniboss_yellow_surge,['Unit Target'],"Charges a target friendly unit with power, giving it a brief burst of maximum movement speed."
+5544,greevil_miniboss_white_purification,['Unit Target'],Instantly heals a friendly unit and damages all nearby enemy units.
+5545,greevil_miniboss_white_degen_aura,"['Passive', None]",Greatly degenerates the movement and attack capabilities of enemy units that stray too near.
+5570,greevil_miniboss_green_living_armor,['Unit Target'],Infuses the target with a protective coating which grants bonus regeneration. Also grants physical damage block from damage from heroes. Dispels when a number of damage instances are taken.
+5571,greevil_miniboss_green_overgrowth,['No Target'],"Summons an overgrowth of vines and branches that prevent afflicted enemies from moving, blinking, going invisible, or attacking."
+5572,greevil_miniboss_orange_dragon_slave,"['Unit Target', 'Point Target']","Channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path."
+5573,greevil_miniboss_orange_light_strike_array,"['Point Target', 'AOE']",Summons a column of flames that damages and stuns enemies.
+5574,greevil_miniboss_purple_venomous_gale,"['AOE', 'Point Target']","Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 2 seconds over its duration."
+5575,greevil_miniboss_purple_plague_ward,['Point Target'],Summons a  ward to attack enemy units and structures. The ward is immune to magic.
+5576,greevil_miniboss_sight,['Passive'],There is nothing the googly greevils eyes can't see!
+5577,throw_snowball,"['Unit Target', None, None]",
+5578,throw_coal,"['Unit Target', None, None]",
+5579,healing_campfire,"['AOE', 'Point Target', None, None]",
+5650,shoot_firework,"[None, 'Point Target', None, None]",
+5599,techies_land_mines,"['Point Target', 'AOE']","Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 400 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1.6 seconds. The explosion deals full damage in the blast radius, and deals 25% damage to buildings."
+5600,techies_stasis_trap,"['Point Target', None, 'AOE']",Plant an invisible trap that roots nearby enemy units instantly when triggered.
+5601,techies_suicide,"['Point Target', 'AOE', None]","Techies hurtle themselves into the enemy's midst, detonating charges upon impact which deal massive area of effect damage and silence enemies. Upon landing, the assault deals Techies damage equal to 50% of their max health."
+5602,techies_remote_mines,"['Point Target', None]","Plant an invisible explosive that will only detonate after a brief delay when triggered.  Does not damage buildings.
+
+Upgradable by Aghanim's Scepter."
+5635,techies_focused_detonate,"['Point Target', 'AOE', None, None, 'Instant Cast', None]",Detonate all remote mines in the target area.
+5636,techies_remote_mines_self_detonate,"['No Target', 'Instant Cast']",Detonate all selected remote mines.
+5644,techies_minefield_sign,"['Point Target', 'AOE', None]","Plant a warning sign to remind enemies to step lightly. Only one sign can exist at a time. Lasts 180 seconds.
+
+Upgradable by Aghanim's Scepter."
+5661,cny_beast_force_attack,"['Unit Target', 'Instant Cast', 'Hidden', None]",
+5662,cny2015_sonic_wave,"[None, 'Point Target']","Creates a gigantic wave of sound in front of Year Beast, dealing heavy damage to all enemy units in its wake."
+5663,cny2015_black_hole,"['AOE', 'Point Target', 'Channeled']","CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.  The closer units get to the center, the more damage is dealt."
+5664,cny2015_chronosphere,"['AOE', 'Point Target']","Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only a Year Beast and Faceless Void are unaffected.  Invisible units in the sphere will be revealed."
+5651,winter_wyvern_arctic_burn,"['No Target', 'Instant Cast']","Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of 6,7,8,9% of their current health each second. Her sight is also hardened against night's chill, granting her 400 additional vision range at night while soaring.
+
+Upgradable by Aghanim's Scepter."
+5652,winter_wyvern_splinter_blast,"['Unit Target', 'AOE']","Launches a ball of brittle ice toward an enemy. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 radius. Enemies struck by these splinters are slowed by 30%."
+5653,winter_wyvern_cold_embrace,['Unit Target'],"Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage."
+5654,winter_wyvern_winters_curse,"['Unit Target', 'AOE']",Winter Wyvern freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies.
+5665,cny_beast_teleport,"['Hidden', 'Point Target', 'Channeled', 'Unit Target', 'No Target', None]",
+5677,arc_warden_flux,['Unit Target'],"Infuses a lone enemy unit with swirling, volatile energy, slowing its movement speed and dealing damage over time. The effect is muted if another enemy unit is near the target."
+5678,arc_warden_magnetic_field,"['Point Target', 'AOE']",Generates a circular distortion field of magnetic energy that protects allied heroes and buildings within it by evading attacks coming from outside the field.
+5679,arc_warden_spark_wraith,"['Point Target', 'AOE']","Summons a Spark Wraith that slowly materializes and patrols a targeted area until an enemy comes within its range. Once a target has been found the wraith fuses with them, dealing magical damage and slowing the unit."
+5683,arc_warden_tempest_double,['No Target'],"Briefly refocusing its fractured elements into a single form, the Arc Warden is able to create a perfect electrical duplication of itself. The duplicate can use all of Arc Warden's current items and spells, except consumables and items that drop on death. The duplicate has separate item and ability cooldowns."
+6285,special_bonus_undefined,[nan],
+5900,special_bonus_hp_100,[nan],
+5901,special_bonus_hp_125,[nan],
+5902,special_bonus_hp_150,[nan],
+6034,special_bonus_hp_175,[nan],
+5959,special_bonus_hp_200,[nan],
+6405,special_bonus_hp_225,[nan],
+5903,special_bonus_hp_250,[nan],
+6311,special_bonus_hp_275,[nan],
+5993,special_bonus_hp_300,[nan],
+6423,special_bonus_hp_325,[nan],
+6195,special_bonus_hp_350,[nan],
+5976,special_bonus_hp_400,[nan],
+6235,special_bonus_hp_500,[nan],
+6377,special_bonus_hp_600,[nan],
+6415,special_bonus_hp_700,[nan],
+6905,special_bonus_hp_800,[nan],
+6096,special_bonus_mp_100,[nan],
+5904,special_bonus_mp_125,[nan],
+5905,special_bonus_mp_150,[nan],
+6067,special_bonus_mp_175,[nan],
+6094,special_bonus_mp_200,[nan],
+6504,special_bonus_mp_225,[nan],
+6006,special_bonus_mp_250,[nan],
+5990,special_bonus_mp_300,[nan],
+6254,special_bonus_mp_350,[nan],
+6321,special_bonus_mp_400,[nan],
+6185,special_bonus_mp_500,[nan],
+6382,special_bonus_mp_600,[nan],
+7059,special_bonus_mp_700,[nan],
+6816,special_bonus_mp_800,[nan],
+6686,special_bonus_mp_1000,[nan],
+6118,special_bonus_attack_speed_10,[nan],
+6119,special_bonus_attack_speed_15,[nan],
+5906,special_bonus_attack_speed_20,[nan],
+6016,special_bonus_attack_speed_25,[nan],
+5907,special_bonus_attack_speed_30,[nan],
+6196,special_bonus_attack_speed_35,[nan],
+6210,special_bonus_attack_speed_40,[nan],
+6224,special_bonus_attack_speed_45,[nan],
+6020,special_bonus_attack_speed_50,[nan],
+5908,special_bonus_attack_speed_60,[nan],
+6444,special_bonus_attack_speed_70,[nan],
+6030,special_bonus_attack_speed_80,[nan],
+6037,special_bonus_attack_speed_100,[nan],
+6650,special_bonus_attack_speed_120,[nan],
+6555,special_bonus_attack_speed_140,[nan],
+6605,special_bonus_attack_speed_160,[nan],
+6622,special_bonus_attack_speed_200,[nan],
+7020,special_bonus_attack_speed_250,[nan],
+7383,special_bonus_corruption_3,[nan],
+7011,special_bonus_corruption_4,[nan],
+6846,special_bonus_corruption_5,[nan],
+6845,special_bonus_cleave_15,[nan],
+6603,special_bonus_cleave_20,[nan],
+6801,special_bonus_cleave_25,[nan],
+7122,special_bonus_cleave_30,[nan],
+7200,special_bonus_cleave_40,[nan],
+6631,special_bonus_cleave_60,[nan],
+6827,special_bonus_cleave_100,[nan],
+7201,special_bonus_cleave_130,[nan],
+7124,special_bonus_cleave_150,[nan],
+6629,special_bonus_haste,[nan],
+6922,special_bonus_truestrike,[nan],
+7034,special_bonus_spell_block_15,[nan],
+7035,special_bonus_spell_block_20,[nan],
+6987,special_bonus_mana_break_20,[nan],
+6830,special_bonus_mana_break_25,[nan],
+6825,special_bonus_mana_break_35,[nan],
+6695,special_bonus_mana_break_40,[nan],
+6646,special_bonus_spell_immunity,[nan],
+5909,special_bonus_hp_regen_4,[nan],
+5910,special_bonus_hp_regen_5,[nan],
+5969,special_bonus_hp_regen_6,[nan],
+5966,special_bonus_hp_regen_7,[nan],
+5911,special_bonus_hp_regen_8,[nan],
+5912,special_bonus_hp_regen_10,[nan],
+6730,special_bonus_hp_regen_12,[nan],
+5913,special_bonus_hp_regen_14,[nan],
+5914,special_bonus_hp_regen_15,[nan],
+7188,special_bonus_hp_regen_16,[nan],
+6079,special_bonus_hp_regen_20,[nan],
+6308,special_bonus_hp_regen_25,[nan],
+6351,special_bonus_hp_regen_30,[nan],
+8351,special_bonus_hp_regen_35,[nan],
+6022,special_bonus_hp_regen_40,[nan],
+6302,special_bonus_hp_regen_50,[nan],
+6660,special_bonus_hp_regen_80,[nan],
+5915,special_bonus_mp_regen_1,[nan],
+7132,special_bonus_mp_regen_150,[nan],
+6926,special_bonus_mp_regen_175,[nan],
+5961,special_bonus_mp_regen_2,[nan],
+5916,special_bonus_mp_regen_4,[nan],
+6410,special_bonus_mp_regen_5,[nan],
+6160,special_bonus_mp_regen_3,[nan],
+5980,special_bonus_mp_regen_6,[nan],
+6243,special_bonus_mp_regen_8,[nan],
+6116,special_bonus_mp_regen_10,[nan],
+6255,special_bonus_mp_regen_14,[nan],
+5958,special_bonus_movement_speed_10,[nan],
+5917,special_bonus_movement_speed_15,[nan],
+5918,special_bonus_movement_speed_20,[nan],
+5919,special_bonus_movement_speed_25,[nan],
+6141,special_bonus_movement_speed_30,[nan],
+6077,special_bonus_movement_speed_35,[nan],
+6093,special_bonus_movement_speed_40,[nan],
+6249,special_bonus_movement_speed_45,[nan],
+6306,special_bonus_movement_speed_50,[nan],
+6373,special_bonus_movement_speed_60,[nan],
+7130,special_bonus_movement_speed_65,[nan],
+6355,special_bonus_movement_speed_75,[nan],
+6706,special_bonus_movement_speed_90,[nan],
+6422,special_bonus_movement_speed_100,[nan],
+6158,special_bonus_lifesteal_10,[nan],
+6289,special_bonus_lifesteal_15,[nan],
+6078,special_bonus_lifesteal_20,[nan],
+6111,special_bonus_lifesteal_25,[nan],
+6121,special_bonus_lifesteal_30,[nan],
+6721,special_bonus_lifesteal_100,[nan],
+5920,special_bonus_all_stats_4,[nan],
+5921,special_bonus_all_stats_5,[nan],
+5922,special_bonus_all_stats_6,[nan],
+6074,special_bonus_all_stats_7,[nan],
+5923,special_bonus_all_stats_8,[nan],
+6168,special_bonus_all_stats_10,[nan],
+6139,special_bonus_all_stats_12,[nan],
+6252,special_bonus_all_stats_14,[nan],
+6135,special_bonus_all_stats_15,[nan],
+6309,special_bonus_all_stats_20,[nan],
+5924,special_bonus_intelligence_6,[nan],
+6117,special_bonus_intelligence_7,[nan],
+5925,special_bonus_intelligence_8,[nan],
+5965,special_bonus_intelligence_10,[nan],
+5926,special_bonus_intelligence_12,[nan],
+6042,special_bonus_intelligence_13,[nan],
+6567,special_bonus_intelligence_14,[nan],
+5991,special_bonus_intelligence_15,[nan],
+6332,special_bonus_intelligence_16,[nan],
+5995,special_bonus_intelligence_20,[nan],
+6050,special_bonus_intelligence_25,[nan],
+6060,special_bonus_intelligence_30,[nan],
+6248,special_bonus_intelligence_35,[nan],
+6817,special_bonus_spell_lifesteal_6,[nan],
+6565,special_bonus_spell_lifesteal_8,[nan],
+6564,special_bonus_spell_lifesteal_10,[nan],
+6560,special_bonus_spell_lifesteal_13,[nan],
+6550,special_bonus_spell_lifesteal_15,[nan],
+6166,special_bonus_spell_lifesteal_20,[nan],
+6513,special_bonus_spell_lifesteal_30,[nan],
+6575,special_bonus_spell_lifesteal_60,[nan],
+6061,special_bonus_spell_lifesteal_70,[nan],
+6002,special_bonus_strength_3,[nan],
+6005,special_bonus_strength_4,[nan],
+5927,special_bonus_strength_5,[nan],
+6048,special_bonus_strength_6,[nan],
+6115,special_bonus_strength_7,[nan],
+5982,special_bonus_strength_8,[nan],
+6250,special_bonus_strength_9,[nan],
+6137,special_bonus_strength_10,[nan],
+5928,special_bonus_strength_12,[nan],
+6281,special_bonus_strength_14,[nan],
+6145,special_bonus_strength_15,[nan],
+6080,special_bonus_strength_20,[nan],
+5984,special_bonus_strength_25,[nan],
+6708,special_bonus_strength_30,[nan],
+6633,special_bonus_strength_40,[nan],
+7384,special_bonus_agility_6,[nan],
+6014,special_bonus_agility_8,[nan],
+6029,special_bonus_agility_10,[nan],
+7386,special_bonus_agility_12,[nan],
+6011,special_bonus_agility_13,[nan],
+6170,special_bonus_agility_14,[nan],
+5929,special_bonus_agility_15,[nan],
+6169,special_bonus_agility_16,[nan],
+5962,special_bonus_agility_20,[nan],
+6150,special_bonus_agility_25,[nan],
+6406,special_bonus_agility_30,[nan],
+6430,special_bonus_agility_40,[nan],
+6705,special_bonus_agility_100,[nan],
+6110,special_bonus_armor_2,[nan],
+5930,special_bonus_armor_3,[nan],
+5931,special_bonus_armor_4,[nan],
+5932,special_bonus_armor_5,[nan],
+5933,special_bonus_armor_6,[nan],
+5970,special_bonus_armor_7,[nan],
+5934,special_bonus_armor_8,[nan],
+6136,special_bonus_armor_9,[nan],
+6004,special_bonus_armor_10,[nan],
+6286,special_bonus_armor_12,[nan],
+6175,special_bonus_armor_15,[nan],
+6503,special_bonus_armor_20,[nan],
+6645,special_bonus_armor_30,[nan],
+5935,special_bonus_magic_resistance_5,[nan],
+5994,special_bonus_magic_resistance_6,[nan],
+5936,special_bonus_magic_resistance_8,[nan],
+5937,special_bonus_magic_resistance_10,[nan],
+6299,special_bonus_magic_resistance_12,[nan],
+6138,special_bonus_magic_resistance_15,[nan],
+6000,special_bonus_magic_resistance_20,[nan],
+6091,special_bonus_magic_resistance_25,[nan],
+6221,special_bonus_magic_resistance_30,[nan],
+6386,special_bonus_magic_resistance_35,[nan],
+6663,special_bonus_magic_resistance_40,[nan],
+6641,special_bonus_magic_resistance_50,[nan],
+6965,special_bonus_magic_resistance_80,[nan],
+6874,special_bonus_magic_resistance_100,[nan],
+6092,special_bonus_day_vision_400,[nan],
+6920,special_bonus_night_vision_400,[nan],
+7022,special_bonus_night_vision_500,[nan],
+7019,special_bonus_night_vision_600,[nan],
+6888,special_bonus_night_vision_1000,[nan],
+6228,special_bonus_vision_200,[nan],
+6095,special_bonus_attack_damage_10,[nan],
+6159,special_bonus_attack_damage_12,[nan],
+5938,special_bonus_attack_damage_15,[nan],
+5960,special_bonus_attack_damage_20,[nan],
+6009,special_bonus_attack_damage_25,[nan],
+5939,special_bonus_attack_damage_30,[nan],
+6164,special_bonus_attack_damage_35,[nan],
+5940,special_bonus_attack_damage_40,[nan],
+6253,special_bonus_attack_damage_45,[nan],
+5941,special_bonus_attack_damage_50,[nan],
+6396,special_bonus_attack_damage_55,[nan],
+6366,special_bonus_attack_damage_60,[nan],
+6142,special_bonus_attack_damage_65,[nan],
+5942,special_bonus_attack_damage_75,[nan],
+5968,special_bonus_attack_damage_90,[nan],
+5979,special_bonus_attack_damage_100,[nan],
+6112,special_bonus_attack_damage_120,[nan],
+6247,special_bonus_attack_damage_150,[nan],
+6556,special_bonus_attack_damage_250,[nan],
+7039,special_bonus_attack_damage_251,[nan],
+6553,special_bonus_attack_damage_400,[nan],
+7372,special_bonus_attack_base_damage_30,[nan],
+7370,special_bonus_attack_base_damage_45,[nan],
+5992,special_bonus_attack_range_50,[nan],
+6027,special_bonus_attack_range_75,[nan],
+5943,special_bonus_attack_range_100,[nan],
+5944,special_bonus_attack_range_125,[nan],
+5963,special_bonus_attack_range_150,[nan],
+6186,special_bonus_attack_range_175,[nan],
+5945,special_bonus_attack_range_200,[nan],
+6040,special_bonus_attack_range_250,[nan],
+6051,special_bonus_attack_range_300,[nan],
+6307,special_bonus_attack_range_400,[nan],
+5946,special_bonus_cast_range_50,[nan],
+6032,special_bonus_cast_range_60,[nan],
+5947,special_bonus_cast_range_75,[nan],
+6003,special_bonus_cast_range_100,[nan],
+6197,special_bonus_cast_range_125,[nan],
+6056,special_bonus_cast_range_150,[nan],
+6120,special_bonus_cast_range_175,[nan],
+6114,special_bonus_cast_range_200,[nan],
+6161,special_bonus_cast_range_250,[nan],
+7117,special_bonus_cast_range_275,[nan],
+6213,special_bonus_cast_range_300,[nan],
+6930,special_bonus_cast_range_350,[nan],
+6384,special_bonus_cast_range_400,[nan],
+6162,special_bonus_spell_amplify_3,[nan],
+6015,special_bonus_spell_amplify_4,[nan],
+5948,special_bonus_spell_amplify_5,[nan],
+5996,special_bonus_spell_amplify_6,[nan],
+5949,special_bonus_spell_amplify_8,[nan],
+5989,special_bonus_spell_amplify_10,[nan],
+6326,special_bonus_spell_amplify_12,[nan],
+7401,special_bonus_spell_amplify_14,[nan],
+6055,special_bonus_spell_amplify_15,[nan],
+6236,special_bonus_spell_amplify_20,[nan],
+6327,special_bonus_spell_amplify_25,[nan],
+5950,special_bonus_cooldown_reduction_8,[nan],
+6021,special_bonus_cooldown_reduction_10,[nan],
+6190,special_bonus_cooldown_reduction_12,[nan],
+5951,special_bonus_cooldown_reduction_15,[nan],
+5952,special_bonus_cooldown_reduction_20,[nan],
+6222,special_bonus_cooldown_reduction_25,[nan],
+6561,special_bonus_cooldown_reduction_30,[nan],
+6445,special_bonus_cooldown_reduction_40,[nan],
+6804,special_bonus_cooldown_reduction_50,[nan],
+7109,special_bonus_cooldown_reduction_65,[nan],
+5975,special_bonus_respawn_reduction_15,[nan],
+5953,special_bonus_respawn_reduction_20,[nan],
+5954,special_bonus_respawn_reduction_25,[nan],
+5964,special_bonus_respawn_reduction_30,[nan],
+6038,special_bonus_respawn_reduction_35,[nan],
+6066,special_bonus_respawn_reduction_40,[nan],
+6375,special_bonus_respawn_reduction_45,[nan],
+6269,special_bonus_respawn_reduction_50,[nan],
+6059,special_bonus_respawn_reduction_60,[nan],
+5955,special_bonus_gold_income_5,[nan],
+5956,special_bonus_gold_income_10,[nan],
+6007,special_bonus_gold_income_15,[nan],
+6008,special_bonus_gold_income_20,[nan],
+5957,special_bonus_gold_income_25,[nan],
+6026,special_bonus_gold_income_30,[nan],
+6301,special_bonus_gold_income_40,[nan],
+6318,special_bonus_gold_income_50,[nan],
+6446,special_bonus_gold_income_70,[nan],
+5971,special_bonus_evasion_10,[nan],
+6239,special_bonus_evasion_12,[nan],
+5972,special_bonus_evasion_15,[nan],
+5973,special_bonus_evasion_20,[nan],
+5974,special_bonus_evasion_25,[nan],
+6700,special_bonus_evasion_30,[nan],
+6613,special_bonus_evasion_50,[nan],
+6882,special_bonus_evasion_75,[nan],
+6025,special_bonus_20_bash_2,[nan],
+6851,special_bonus_30_crit_2,[nan],
+7045,special_bonus_20_crit_15,[nan],
+7145,special_bonus_50_crit_40,[nan],
+5983,special_bonus_exp_boost_5,[nan],
+5985,special_bonus_exp_boost_10,[nan],
+5986,special_bonus_exp_boost_15,[nan],
+6017,special_bonus_exp_boost_20,[nan],
+5987,special_bonus_exp_boost_25,[nan],
+6317,special_bonus_exp_boost_30,[nan],
+6372,special_bonus_exp_boost_35,[nan],
+6447,special_bonus_exp_boost_40,[nan],
+7125,special_bonus_exp_boost_60,[nan],
+5977,special_bonus_unique_clockwerk,[nan],
+6364,special_bonus_unique_clockwerk_2,[nan],
+6512,special_bonus_unique_clockwerk_3,[nan],
+7028,special_bonus_unique_clockwerk_4,[nan],
+5981,special_bonus_unique_omniknight_1,[nan],
+6300,special_bonus_unique_omniknight_2,[nan],
+6709,special_bonus_unique_omniknight_3,[nan],
+7010,special_bonus_unique_omniknight_4,[nan],
+6322,special_bonus_unique_centaur_1,[nan],
+5988,special_bonus_unique_centaur_2,[nan],
+6616,special_bonus_unique_centaur_3,[nan],
+6617,special_bonus_unique_centaur_4,[nan],
+5998,special_bonus_unique_witch_doctor_1,[nan],
+6298,special_bonus_unique_witch_doctor_2,[nan],
+6524,special_bonus_unique_witch_doctor_3,[nan],
+6995,special_bonus_unique_witch_doctor_4,[nan],
+6996,special_bonus_unique_witch_doctor_5,[nan],
+6010,special_bonus_unique_necrophos,[nan],
+6703,special_bonus_unique_necrophos_2,[nan],
+7110,special_bonus_unique_necrophos_3,[nan],
+7111,special_bonus_unique_necrophos_4,[nan],
+6012,special_bonus_unique_antimage,[nan],
+6353,special_bonus_unique_antimage_2,[nan],
+6606,special_bonus_unique_antimage_3,[nan],
+6607,special_bonus_unique_antimage_4,[nan],
+6800,special_bonus_unique_antimage_5,[nan],
+6013,special_bonus_unique_mirana_1,[nan],
+6242,special_bonus_unique_mirana_2,[nan],
+6397,special_bonus_unique_mirana_3,[nan],
+6692,special_bonus_unique_mirana_4,[nan],
+6018,special_bonus_unique_bounty_hunter,[nan],
+6358,special_bonus_unique_bounty_hunter_2,[nan],
+7040,special_bonus_unique_bounty_hunter_3,[nan],
+6407,special_bonus_unique_queen_of_pain,[nan],
+6856,special_bonus_unique_queen_of_pain_2,[nan],
+6019,special_bonus_unique_underlord,[nan],
+6967,special_bonus_unique_underlord_2,[nan],
+6968,special_bonus_unique_underlord_3,[nan],
+6969,special_bonus_unique_underlord_4,[nan],
+6023,special_bonus_unique_pudge_1,[nan],
+6245,special_bonus_unique_pudge_2,[nan],
+6506,special_bonus_unique_pudge_3,[nan],
+7142,special_bonus_unique_pudge_4,[nan],
+6024,special_bonus_unique_treant,[nan],
+6531,special_bonus_unique_treant_2,[nan],
+6955,special_bonus_unique_treant_3,[nan],
+6956,special_bonus_unique_treant_4,[nan],
+6957,special_bonus_unique_treant_5,[nan],
+7103,special_bonus_unique_treant_6,[nan],
+7115,special_bonus_unique_treant_7,[nan],
+6028,special_bonus_unique_razor,[nan],
+6408,special_bonus_unique_razor_2,[nan],
+6860,special_bonus_unique_razor_3,[nan],
+6861,special_bonus_unique_razor_4,[nan],
+6031,special_bonus_unique_visage_1,[nan],
+6320,special_bonus_unique_visage_2,[nan],
+6522,special_bonus_unique_visage_3,[nan],
+6983,special_bonus_unique_visage_4,[nan],
+6984,special_bonus_unique_visage_5,[nan],
+6985,special_bonus_unique_visage_6,[nan],
+6035,special_bonus_unique_earthshaker,[nan],
+6425,special_bonus_unique_earthshaker_2,[nan],
+6511,special_bonus_unique_earthshaker_3,[nan],
+6039,special_bonus_unique_lich_1,[nan],
+6292,special_bonus_unique_lich_2,[nan],
+6387,special_bonus_unique_lich_3,[nan],
+7360,special_bonus_unique_lich_4,[nan],
+6041,special_bonus_unique_rubick,[nan],
+6862,special_bonus_unique_rubick_2,[nan],
+6863,special_bonus_unique_rubick_3,[nan],
+6864,special_bonus_unique_rubick_4,[nan],
+6870,special_bonus_unique_rubick_5,[nan],
+6045,special_bonus_unique_sven,[nan],
+6910,special_bonus_unique_sven_2,[nan],
+6911,special_bonus_unique_sven_3,[nan],
+7112,special_bonus_unique_sven_4,[nan],
+6047,special_bonus_unique_dark_seer,[nan],
+6365,special_bonus_unique_dark_seer_2,[nan],
+6624,special_bonus_unique_dark_seer_3,[nan],
+7046,special_bonus_unique_dark_seer_4,[nan],
+6049,special_bonus_unique_dazzle_1,[nan],
+6232,special_bonus_unique_dazzle_2,[nan],
+6528,special_bonus_unique_dazzle_3,[nan],
+6626,special_bonus_unique_dazzle_4,[nan],
+6052,special_bonus_unique_shadow_shaman_1,[nan],
+6295,special_bonus_unique_shadow_shaman_2,[nan],
+6502,special_bonus_unique_shadow_shaman_3,[nan],
+6521,special_bonus_unique_shadow_shaman_4,[nan],
+6877,special_bonus_unique_shadow_shaman_5,[nan],
+6053,special_bonus_unique_warlock_1,[nan],
+6054,special_bonus_unique_warlock_2,[nan],
+6412,special_bonus_unique_warlock_3,[nan],
+6505,special_bonus_unique_warlock_4,[nan],
+6982,special_bonus_unique_warlock_5,[nan],
+6986,special_bonus_unique_warlock_6,[nan],
+6310,special_bonus_unique_vengeful_spirit_1,[nan],
+6237,special_bonus_unique_vengeful_spirit_2,[nan],
+6057,special_bonus_unique_vengeful_spirit_3,[nan],
+6977,special_bonus_unique_vengeful_spirit_4,[nan],
+6978,special_bonus_unique_vengeful_spirit_5,[nan],
+7018,special_bonus_unique_vengeful_spirit_6,[nan],
+6058,special_bonus_unique_venomancer,[nan],
+6532,special_bonus_unique_venomancer_2,[nan],
+6979,special_bonus_unique_venomancer_3,[nan],
+6980,special_bonus_unique_venomancer_4,[nan],
+6981,special_bonus_unique_venomancer_5,[nan],
+6999,special_bonus_unique_venomancer_6,[nan],
+6062,special_bonus_unique_morphling_1,[nan],
+6225,special_bonus_unique_morphling_2,[nan],
+6698,special_bonus_unique_morphling_3,[nan],
+6840,special_bonus_unique_morphling_4,[nan],
+6927,special_bonus_unique_morphling_5,[nan],
+7052,special_bonus_unique_morphling_6,[nan],
+7056,special_bonus_unique_morphling_7,[nan],
+7060,special_bonus_unique_morphling_8,[nan],
+6063,special_bonus_unique_leshrac_1,[nan],
+6240,special_bonus_unique_leshrac_2,[nan],
+6672,special_bonus_unique_leshrac_3,[nan],
+7101,special_bonus_unique_leshrac_4,[nan],
+6064,special_bonus_unique_jakiro,[nan],
+6381,special_bonus_unique_jakiro_2,[nan],
+6538,special_bonus_unique_jakiro_3,[nan],
+6661,special_bonus_unique_jakiro_4,[nan],
+6065,special_bonus_unique_enigma,[nan],
+6510,special_bonus_unique_enigma_2,[nan],
+6649,special_bonus_unique_enigma_3,[nan],
+6068,special_bonus_unique_bane_1,[nan],
+6069,special_bonus_unique_bane_2,[nan],
+6609,special_bonus_unique_bane_3,[nan],
+6826,special_bonus_unique_bane_4,[nan],
+6670,special_bonus_unique_nevermore_1,[nan],
+6070,special_bonus_unique_nevermore_2,[nan],
+6875,special_bonus_unique_nevermore_3,[nan],
+6876,special_bonus_unique_nevermore_4,[nan],
+6912,special_bonus_unique_nevermore_5,[nan],
+6071,special_bonus_unique_templar_assassin,[nan],
+6545,special_bonus_unique_templar_assassin_2,[nan],
+6938,special_bonus_unique_templar_assassin_3,[nan],
+6939,special_bonus_unique_templar_assassin_4,[nan],
+6940,special_bonus_unique_templar_assassin_5,[nan],
+7058,special_bonus_unique_templar_assassin_6,[nan],
+7371,special_bonus_unique_templar_assassin_7,[nan],
+6072,special_bonus_unique_crystal_maiden_1,[nan],
+6234,special_bonus_unique_crystal_maiden_2,[nan],
+6520,special_bonus_unique_crystal_maiden_3,[nan],
+7042,special_bonus_unique_crystal_maiden_4,[nan],
+6073,special_bonus_unique_doom_1,[nan],
+6314,special_bonus_unique_doom_2,[nan],
+6369,special_bonus_unique_doom_3,[nan],
+6370,special_bonus_unique_doom_4,[nan],
+6371,special_bonus_unique_doom_5,[nan],
+7123,special_bonus_unique_doom_6,[nan],
+6082,special_bonus_unique_brewmaster,[nan],
+6359,special_bonus_unique_brewmaster_2,[nan],
+6516,special_bonus_unique_brewmaster_3,[nan],
+6614,special_bonus_unique_brewmaster_4,[nan],
+6083,special_bonus_unique_bristleback,[nan],
+6360,special_bonus_unique_bristleback_2,[nan],
+6615,special_bonus_unique_bristleback_3,[nan],
+6084,special_bonus_unique_furion,[nan],
+6500,special_bonus_unique_furion_2,[nan],
+6539,special_bonus_unique_furion_3,[nan],
+6702,special_bonus_unique_furion_4,[nan],
+6227,special_bonus_unique_phoenix_1,[nan],
+6085,special_bonus_unique_phoenix_2,[nan],
+6401,special_bonus_unique_phoenix_3,[nan],
+6852,special_bonus_unique_phoenix_4,[nan],
+6915,special_bonus_unique_phoenix_5,[nan],
+6331,special_bonus_unique_enchantress_1,[nan],
+6086,special_bonus_unique_enchantress_2,[nan],
+6379,special_bonus_unique_enchantress_3,[nan],
+6515,special_bonus_unique_enchantress_4,[nan],
+6648,special_bonus_unique_enchantress_5,[nan],
+6087,special_bonus_unique_batrider_1,[nan],
+6229,special_bonus_unique_batrider_2,[nan],
+6610,special_bonus_unique_batrider_3,[nan],
+6201,special_bonus_unique_wraith_king_1,[nan],
+6088,special_bonus_unique_wraith_king_2,[nan],
+6414,special_bonus_unique_wraith_king_3,[nan],
+6566,special_bonus_unique_wraith_king_4,[nan],
+6821,special_bonus_unique_wraith_king_5,[nan],
+6822,special_bonus_unique_wraith_king_6,[nan],
+7107,special_bonus_unique_wraith_king_7,[nan],
+7108,special_bonus_unique_wraith_king_8,[nan],
+6089,special_bonus_unique_kunkka,[nan],
+6385,special_bonus_unique_kunkka_2,[nan],
+6666,special_bonus_unique_kunkka_3,[nan],
+6667,special_bonus_unique_kunkka_4,[nan],
+7131,special_bonus_unique_kunkka_5,[nan],
+6090,special_bonus_unique_dragon_knight,[nan],
+6635,special_bonus_unique_dragon_knight_2,[nan],
+7113,special_bonus_unique_dragon_knight_3,[nan],
+7114,special_bonus_unique_dragon_knight_4,[nan],
+7380,special_bonus_unique_dragon_knight_5,[nan],
+7381,special_bonus_unique_dragon_knight_6,[nan],
+6097,special_bonus_unique_invoker_1,[nan],
+6098,special_bonus_unique_invoker_2,[nan],
+6099,special_bonus_unique_invoker_3,[nan],
+6656,special_bonus_unique_invoker_4,[nan],
+6657,special_bonus_unique_invoker_5,[nan],
+6811,special_bonus_unique_invoker_6,[nan],
+7016,special_bonus_unique_invoker_7,[nan],
+7017,special_bonus_unique_invoker_8,[nan],
+7148,special_bonus_unique_invoker_9,[nan],
+7390,special_bonus_unique_invoker_10,[nan],
+6100,special_bonus_unique_abaddon,[nan],
+6601,special_bonus_unique_abaddon_2,[nan],
+6602,special_bonus_unique_abaddon_3,[nan],
+7335,special_bonus_unique_abaddon_4,[nan],
+7340,special_bonus_unique_abaddon_5,[nan],
+6101,special_bonus_unique_alchemist,[nan],
+6350,special_bonus_unique_alchemist_2,[nan],
+6604,special_bonus_unique_alchemist_3,[nan],
+7054,special_bonus_unique_alchemist_4,[nan],
+7144,special_bonus_unique_alchemist_5,[nan],
+6102,special_bonus_unique_axe,[nan],
+6608,special_bonus_unique_axe_2,[nan],
+6815,special_bonus_unique_axe_3,[nan],
+6103,special_bonus_unique_beastmaster,[nan],
+6517,special_bonus_unique_beastmaster_2,[nan],
+6611,special_bonus_unique_beastmaster_3,[nan],
+6612,special_bonus_unique_beastmaster_4,[nan],
+6104,special_bonus_unique_clinkz_1,[nan],
+6231,special_bonus_unique_clinkz_2,[nan],
+6620,special_bonus_unique_clinkz_3,[nan],
+6105,special_bonus_unique_juggernaut,[nan],
+6662,special_bonus_unique_juggernaut_2,[nan],
+7021,special_bonus_unique_juggernaut_3,[nan],
+7394,special_bonus_unique_juggernaut_4,[nan],
+6106,special_bonus_unique_winter_wyvern_1,[nan],
+6297,special_bonus_unique_winter_wyvern_2,[nan],
+6523,special_bonus_unique_winter_wyvern_3,[nan],
+6994,special_bonus_unique_winter_wyvern_4,[nan],
+6107,special_bonus_unique_terrorblade,[nan],
+6942,special_bonus_unique_terrorblade_2,[nan],
+6943,special_bonus_unique_terrorblade_3,[nan],
+6180,special_bonus_unique_luna_1,[nan],
+6127,special_bonus_unique_luna_2,[nan],
+6682,special_bonus_unique_luna_3,[nan],
+7047,special_bonus_unique_luna_4,[nan],
+7055,special_bonus_unique_luna_5,[nan],
+6128,special_bonus_unique_faceless_void,[nan],
+6651,special_bonus_unique_faceless_void_2,[nan],
+6807,special_bonus_unique_faceless_void_3,[nan],
+7001,special_bonus_unique_faceless_void_4,[nan],
+7388,special_bonus_unique_faceless_void_5,[nan],
+6129,special_bonus_unique_night_stalker,[nan],
+6704,special_bonus_unique_night_stalker_2,[nan],
+6130,special_bonus_unique_nyx,[nan],
+6399,special_bonus_unique_nyx_2,[nan],
+6814,special_bonus_unique_nyx_3,[nan],
+6200,special_bonus_unique_weaver_1,[nan],
+6131,special_bonus_unique_weaver_2,[nan],
+6988,special_bonus_unique_weaver_3,[nan],
+6989,special_bonus_unique_weaver_4,[nan],
+6990,special_bonus_unique_weaver_5,[nan],
+6132,special_bonus_unique_ursa,[nan],
+6973,special_bonus_unique_ursa_2,[nan],
+6974,special_bonus_unique_ursa_3,[nan],
+6975,special_bonus_unique_ursa_4,[nan],
+6976,special_bonus_unique_ursa_5,[nan],
+7133,special_bonus_unique_ursa_6,[nan],
+6133,special_bonus_unique_chaos_knight,[nan],
+6618,special_bonus_unique_chaos_knight_2,[nan],
+6619,special_bonus_unique_chaos_knight_3,[nan],
+6134,special_bonus_unique_lycan_1,[nan],
+6140,special_bonus_unique_lycan_2,[nan],
+6519,special_bonus_unique_lycan_3,[nan],
+6684,special_bonus_unique_lycan_4,[nan],
+6685,special_bonus_unique_lycan_5,[nan],
+6144,special_bonus_unique_windranger,[nan],
+6413,special_bonus_unique_windranger_2,[nan],
+6562,special_bonus_unique_windranger_3,[nan],
+6992,special_bonus_unique_windranger_4,[nan],
+6993,special_bonus_unique_windranger_5,[nan],
+7062,special_bonus_unique_windranger_6,[nan],
+6146,special_bonus_unique_phantom_lancer,[nan],
+6400,special_bonus_unique_phantom_lancer_2,[nan],
+6849,special_bonus_unique_phantom_lancer_3,[nan],
+6850,special_bonus_unique_phantom_lancer_4,[nan],
+6147,special_bonus_unique_slark,[nan],
+6892,special_bonus_unique_slark_2,[nan],
+6893,special_bonus_unique_slark_3,[nan],
+6894,special_bonus_unique_slark_4,[nan],
+6148,special_bonus_unique_spectre,[nan],
+6900,special_bonus_unique_spectre_2,[nan],
+6901,special_bonus_unique_spectre_3,[nan],
+6902,special_bonus_unique_spectre_4,[nan],
+6903,special_bonus_unique_spectre_5,[nan],
+6149,special_bonus_unique_spirit_breaker_1,[nan],
+6296,special_bonus_unique_spirit_breaker_2,[nan],
+6543,special_bonus_unique_spirit_breaker_3,[nan],
+6167,special_bonus_unique_storm_spirit,[nan],
+6906,special_bonus_unique_storm_spirit_2,[nan],
+6907,special_bonus_unique_storm_spirit_3,[nan],
+6908,special_bonus_unique_storm_spirit_4,[nan],
+6916,special_bonus_unique_storm_spirit_5,[nan],
+7936,special_bonus_unique_storm_spirit_6,[nan],
+6151,special_bonus_unique_tidehunter,[nan],
+6945,special_bonus_unique_tidehunter_2,[nan],
+6946,special_bonus_unique_tidehunter_3,[nan],
+6947,special_bonus_unique_tidehunter_4,[nan],
+6152,special_bonus_unique_tinker,[nan],
+6952,special_bonus_unique_tinker_2,[nan],
+6953,special_bonus_unique_tinker_3,[nan],
+6153,special_bonus_unique_tiny,[nan],
+6932,special_bonus_unique_tiny_2,[nan],
+6933,special_bonus_unique_tiny_3,[nan],
+6934,special_bonus_unique_tiny_4,[nan],
+7005,special_bonus_unique_tiny_5,[nan],
+6154,special_bonus_unique_troll_warlord,[nan],
+6958,special_bonus_unique_troll_warlord_2,[nan],
+6959,special_bonus_unique_troll_warlord_3,[nan],
+6960,special_bonus_unique_troll_warlord_4,[nan],
+6155,special_bonus_unique_undying,[nan],
+6420,special_bonus_unique_undying_2,[nan],
+6546,special_bonus_unique_undying_3,[nan],
+6971,special_bonus_unique_undying_4,[nan],
+6972,special_bonus_unique_undying_5,[nan],
+6156,special_bonus_unique_viper_1,[nan],
+6165,special_bonus_unique_viper_2,[nan],
+6819,special_bonus_unique_viper_3,[nan],
+6820,special_bonus_unique_viper_4,[nan],
+6157,special_bonus_unique_zeus,[nan],
+6501,special_bonus_unique_zeus_2,[nan],
+6518,special_bonus_unique_zeus_3,[nan],
+6171,special_bonus_unique_elder_titan,[nan],
+6378,special_bonus_unique_elder_titan_2,[nan],
+6720,special_bonus_unique_elder_titan_3,[nan],
+7350,special_bonus_unique_elder_titan_4,[nan],
+6172,special_bonus_unique_ember_spirit_1,[nan],
+6176,special_bonus_unique_ember_spirit_2,[nan],
+6647,special_bonus_unique_ember_spirit_3,[nan],
+7050,special_bonus_unique_ember_spirit_4,[nan],
+7051,special_bonus_unique_ember_spirit_5,[nan],
+6173,special_bonus_unique_lifestealer,[nan],
+6676,special_bonus_unique_lifestealer_2,[nan],
+7012,special_bonus_unique_lifestealer_3,[nan],
+6677,special_bonus_reincarnation_200,[nan],
+7385,special_bonus_reincarnation_250,[nan],
+6174,special_bonus_unique_lion,[nan],
+6389,special_bonus_unique_lion_2,[nan],
+6600,special_bonus_unique_lion_3,[nan],
+6678,special_bonus_unique_lion_4,[nan],
+6181,special_bonus_unique_skywrath,[nan],
+6884,special_bonus_unique_skywrath_2,[nan],
+6885,special_bonus_unique_skywrath_3,[nan],
+6886,special_bonus_unique_skywrath_4,[nan],
+6921,special_bonus_unique_skywrath_5,[nan],
+6182,special_bonus_unique_medusa,[nan],
+6392,special_bonus_unique_medusa_2,[nan],
+6687,special_bonus_unique_medusa_3,[nan],
+6803,special_bonus_unique_medusa_4,[nan],
+7389,special_bonus_unique_medusa_5,[nan],
+6183,special_bonus_unique_ogre_magi,[nan],
+6707,special_bonus_unique_ogre_magi_2,[nan],
+7030,special_bonus_unique_ogre_magi_3,[nan],
+6184,special_bonus_unique_silencer,[nan],
+6878,special_bonus_unique_silencer_2,[nan],
+6879,special_bonus_unique_silencer_3,[nan],
+6880,special_bonus_unique_silencer_4,[nan],
+7048,special_bonus_unique_silencer_5,[nan],
+6191,special_bonus_unique_death_prophet,[nan],
+6367,special_bonus_unique_death_prophet_2,[nan],
+6628,special_bonus_unique_death_prophet_3,[nan],
+6805,special_bonus_unique_death_prophet_4,[nan],
+6192,special_bonus_unique_phantom_assassin,[nan],
+6847,special_bonus_unique_phantom_assassin_2,[nan],
+6848,special_bonus_unique_phantom_assassin_3,[nan],
+6330,special_bonus_unique_riki_1,[nan],
+6193,special_bonus_unique_riki_2,[nan],
+6865,special_bonus_unique_riki_3,[nan],
+6866,special_bonus_unique_riki_4,[nan],
+6867,special_bonus_unique_riki_5,[nan],
+6194,special_bonus_unique_tusk,[nan],
+6411,special_bonus_unique_tusk_2,[nan],
+6961,special_bonus_unique_tusk_3,[nan],
+6962,special_bonus_unique_tusk_4,[nan],
+6963,special_bonus_unique_tusk_5,[nan],
+6305,special_bonus_unique_sniper_1,[nan],
+6198,special_bonus_unique_sniper_2,[nan],
+6896,special_bonus_unique_sniper_3,[nan],
+6897,special_bonus_unique_sniper_4,[nan],
+7396,special_bonus_unique_sniper_5,[nan],
+6199,special_bonus_unique_magnus,[nan],
+6390,special_bonus_unique_magnus_2,[nan],
+6507,special_bonus_unique_magnus_3,[nan],
+6690,special_bonus_unique_magnus_4,[nan],
+6691,special_bonus_unique_magnus_5,[nan],
+6202,special_bonus_unique_drow_ranger_1,[nan],
+6209,special_bonus_unique_drow_ranger_2,[nan],
+6280,special_bonus_unique_drow_ranger_3,[nan],
+6634,special_bonus_unique_drow_ranger_4,[nan],
+6203,special_bonus_unique_earth_spirit,[nan],
+6514,special_bonus_unique_earth_spirit_2,[nan],
+6640,special_bonus_unique_earth_spirit_3,[nan],
+6204,special_bonus_unique_huskar,[nan],
+6380,special_bonus_unique_huskar_2,[nan],
+6655,special_bonus_unique_huskar_3,[nan],
+7140,special_bonus_unique_huskar_4,[nan],
+7143,special_bonus_unique_huskar_5,[nan],
+6205,special_bonus_unique_naga_siren,[nan],
+6398,special_bonus_unique_naga_siren_2,[nan],
+6701,special_bonus_unique_naga_siren_3,[nan],
+7029,special_bonus_unique_naga_siren_4,[nan],
+6206,special_bonus_unique_oracle,[nan],
+6540,special_bonus_unique_oracle_2,[nan],
+6710,special_bonus_unique_oracle_3,[nan],
+6970,special_bonus_unique_oracle_4,[nan],
+6207,special_bonus_unique_sand_king,[nan],
+6409,special_bonus_unique_sand_king_2,[nan],
+6530,special_bonus_unique_sand_king_3,[nan],
+6872,special_bonus_unique_sand_king_4,[nan],
+6208,special_bonus_unique_shadow_demon_1,[nan],
+6293,special_bonus_unique_shadow_demon_2,[nan],
+6542,special_bonus_unique_shadow_demon_3,[nan],
+6873,special_bonus_unique_shadow_demon_4,[nan],
+7002,special_bonus_unique_shadow_demon_5,[nan],
+7061,special_bonus_unique_shadow_demon_6,[nan],
+7118,special_bonus_unique_shadow_demon_7,[nan],
+6211,special_bonus_unique_slardar,[nan],
+6889,special_bonus_unique_slardar_2,[nan],
+6890,special_bonus_unique_slardar_3,[nan],
+6212,special_bonus_unique_lina_1,[nan],
+6313,special_bonus_unique_lina_2,[nan],
+6388,special_bonus_unique_lina_3,[nan],
+6509,special_bonus_unique_lina_4,[nan],
+6214,special_bonus_unique_ancient_apparition_1,[nan],
+6291,special_bonus_unique_ancient_apparition_2,[nan],
+6352,special_bonus_unique_ancient_apparition_3,[nan],
+6534,special_bonus_unique_ancient_apparition_4,[nan],
+6810,special_bonus_unique_ancient_apparition_5,[nan],
+7106,special_bonus_unique_ancient_apparition_6,[nan],
+6215,special_bonus_unique_disruptor,[nan],
+6368,special_bonus_unique_disruptor_2,[nan],
+6536,special_bonus_unique_disruptor_3,[nan],
+6630,special_bonus_unique_disruptor_4,[nan],
+6812,special_bonus_unique_disruptor_5,[nan],
+6216,special_bonus_unique_gyrocopter_1,[nan],
+6312,special_bonus_unique_gyrocopter_2,[nan],
+6652,special_bonus_unique_gyrocopter_3,[nan],
+6653,special_bonus_unique_gyrocopter_4,[nan],
+6654,special_bonus_unique_gyrocopter_5,[nan],
+7141,special_bonus_unique_gyrocopter_6,[nan],
+6241,special_bonus_unique_outworld_devourer,[nan],
+6711,special_bonus_unique_outworld_devourer_2,[nan],
+6712,special_bonus_unique_outworld_devourer_3,[nan],
+7375,special_bonus_unique_outworld_devourer_4,[nan],
+6217,special_bonus_unique_keeper_of_the_light,[nan],
+6527,special_bonus_unique_keeper_of_the_light_2,[nan],
+6665,special_bonus_unique_keeper_of_the_light_3,[nan],
+7398,special_bonus_unique_keeper_of_the_light_4,[nan],
+6218,special_bonus_unique_legion_commander,[nan],
+6449,special_bonus_unique_legion_commander_2,[nan],
+6526,special_bonus_unique_legion_commander_3,[nan],
+6671,special_bonus_unique_legion_commander_4,[nan],
+7395,special_bonus_unique_legion_commander_5,[nan],
+6219,special_bonus_unique_puck,[nan],
+6402,special_bonus_unique_puck_2,[nan],
+6855,special_bonus_unique_puck_3,[nan],
+7057,special_bonus_unique_puck_4,[nan],
+6220,special_bonus_unique_pugna_1,[nan],
+6238,special_bonus_unique_pugna_2,[nan],
+6403,special_bonus_unique_pugna_3,[nan],
+6448,special_bonus_unique_pugna_4,[nan],
+6541,special_bonus_unique_pugna_5,[nan],
+6859,special_bonus_unique_pugna_6,[nan],
+6223,special_bonus_unique_timbersaw,[nan],
+6948,special_bonus_unique_timbersaw_2,[nan],
+6949,special_bonus_unique_timbersaw_3,[nan],
+6230,special_bonus_unique_bloodseeker,[nan],
+6356,special_bonus_unique_bloodseeker_2,[nan],
+6357,special_bonus_unique_bloodseeker_3,[nan],
+6809,special_bonus_unique_bloodseeker_4,[nan],
+6257,special_bonus_unique_broodmother_1,[nan],
+6258,special_bonus_unique_broodmother_2,[nan],
+6361,special_bonus_unique_broodmother_3,[nan],
+6362,special_bonus_unique_broodmother_4,[nan],
+6259,special_bonus_unique_chen_1,[nan],
+6260,special_bonus_unique_chen_2,[nan],
+6363,special_bonus_unique_chen_3,[nan],
+6535,special_bonus_unique_chen_4,[nan],
+6261,special_bonus_unique_lone_druid_1,[nan],
+6262,special_bonus_unique_lone_druid_2,[nan],
+6263,special_bonus_unique_lone_druid_3,[nan],
+6268,special_bonus_unique_lone_druid_4,[nan],
+6508,special_bonus_unique_lone_druid_5,[nan],
+6679,special_bonus_unique_lone_druid_6,[nan],
+6680,special_bonus_unique_lone_druid_7,[nan],
+6806,special_bonus_unique_lone_druid_8,[nan],
+6265,special_bonus_unique_wisp,[nan],
+7036,special_bonus_unique_lone_druid_9,[nan],
+7382,special_bonus_unique_lone_druid_10,[nan],
+6537,special_bonus_unique_wisp_2,[nan],
+6659,special_bonus_unique_wisp_3,[nan],
+6808,special_bonus_unique_wisp_4,[nan],
+6924,special_bonus_unique_wisp_5,[nan],
+7070,special_bonus_unique_wisp_6,[nan],
+6282,special_bonus_unique_techies,[nan],
+6552,special_bonus_unique_techies_2,[nan],
+6997,special_bonus_unique_techies_3,[nan],
+6998,special_bonus_unique_techies_4,[nan],
+6287,special_bonus_unique_arc_warden,[nan],
+6354,special_bonus_unique_arc_warden_2,[nan],
+7104,special_bonus_unique_arc_warden_3,[nan],
+7105,special_bonus_unique_arc_warden_4,[nan],
+7120,special_bonus_unique_arc_warden_5,[nan],
+6288,special_bonus_unique_meepo,[nan],
+6689,special_bonus_unique_meepo_2,[nan],
+7027,special_bonus_unique_meepo_3,[nan],
+7102,special_bonus_unique_meepo_4,[nan],
+6303,special_bonus_unique_monkey_king,[nan],
+6421,special_bonus_unique_monkey_king_2,[nan],
+6696,special_bonus_unique_monkey_king_3,[nan],
+6697,special_bonus_unique_monkey_king_4,[nan],
+7024,special_bonus_unique_monkey_king_5,[nan],
+7025,special_bonus_unique_monkey_king_6,[nan],
+7038,special_bonus_unique_monkey_king_7,[nan],
+6463,special_bonus_unique_pangolier_2,[nan],
+9060,special_bonus_unique_pangolier_3,[nan],
+9061,special_bonus_unique_pangolier_4,[nan],
+9062,special_bonus_unique_pangolier_5,[nan],
+9135,special_bonus_unique_pangolier_6,[nan],
+9391,special_bonus_unique_pangolier_7,[nan],
+6464,special_bonus_unique_dark_willow_1,[nan],
+6465,special_bonus_unique_dark_willow_2,[nan],
+8001,special_bonus_unique_grimstroke_1,[nan],
+8002,special_bonus_unique_grimstroke_2,[nan],
+8003,special_bonus_unique_grimstroke_3,[nan],
+8004,special_bonus_unique_grimstroke_4,[nan],
+6251,generic_hidden,"['Hidden', None]",
+82,bear_empty1,"['Passive', None]",
+83,bear_empty2,"['Passive', None]",
+7816,consumable_hidden,"['Hidden', None, None]",
+7804,seasonal_throw_snowball,"['Unit Target', None, None]",Throw a snowball at an ally or enemy.
+7806,seasonal_summon_snowman,"['Point Target', None, None]",Summons a jolly snowman.
+7807,seasonal_decorate_tree,"['Unit Target', None, None]",Give any tree a delightfully seasonal touch.
+7809,seasonal_festive_firework,"[None, 'Point Target', None, None]",Shoot a firework into the air.
+7810,frostivus2018_throw_snowball,"['Unit Target', None, None]","Throw a snowball at an enemy, damaging and stunning all enemy units around it.
+
+Note: All Frosthaven consumables have a shared cooldown."
+7812,frostivus2018_summon_snowman,"['Point Target', None, None]","Summons a snowman that taunts nearby enemies.
+
+Note: All Frosthaven consumables have a shared cooldown."
+7813,frostivus2018_decorate_tree,"['Unit Target', None, None]","Decorate a tree with blinking lights that damage nearby enemies.
+
+Note: All Frosthaven consumables have a shared cooldown."
+7815,frostivus2018_festive_firework,"['Point Target', 'AOE', None, None]","Fires a global range firework that explodes over a given area, damaging enemies, blinding them, and providing vision for 10 seconds.
+
+Note: All Frosthaven consumables have a shared cooldown."
+7817,seasonal_summon_cny_balloon,"[None, 'Unit Target', None, None]",
+7818,seasonal_summon_dragon,"['Point Target', None, None]",
+7819,seasonal_summon_cny_tree,"['Unit Target', None, None]",
+7820,seasonal_firecrackers,"['No Target', 'Instant Cast', None, None]",

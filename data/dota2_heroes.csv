@@ -1,0 +1,118 @@
+hero_id,name,localized_name,roles,agi_gain,attack_range,attack_rate,attack_type,base_agi,base_armor,base_attack_max,base_attack_min,base_health,base_health_regen,base_int,base_mana,base_mana_regen,base_mr,base_str,cm_enabled,int_gain,legs,move_speed,primary_attr,projectile_speed,str_gain,turn_rate
+1,npc_dota_hero_antimage,Anti-Mage,"['Carry', 'Escape', 'Nuker']",3.2,150,1.4,Melee,24,-1.0,33,29,200,0.25,12,75,0,25,23,True,1.8,2,310,agi,0,1.3,0.5
+2,npc_dota_hero_axe,Axe,"['Initiator', 'Durable', 'Disabler', 'Jungler']",2.2,150,1.7,Melee,20,-2.0,28,24,200,2.75,18,75,0,25,25,True,1.6,2,295,str,900,3.2,0.6
+3,npc_dota_hero_bane,Bane,"['Support', 'Disabler', 'Nuker', 'Durable']",2.6,400,1.7,Ranged,23,1.0,41,35,200,,23,75,0,25,23,True,2.6,4,305,int,900,2.6,0.6
+4,npc_dota_hero_bloodseeker,Bloodseeker,"['Carry', 'Disabler', 'Jungler', 'Nuker', 'Initiator']",3.5,150,1.7,Melee,24,0.0,39,33,200,,18,75,0,25,24,True,1.7,2,295,agi,900,2.7,0.5
+5,npc_dota_hero_crystal_maiden,Crystal Maiden,"['Support', 'Disabler', 'Nuker', 'Jungler']",1.6,600,1.7,Ranged,16,0.0,36,30,200,,14,75,0,25,18,True,3.3,2,275,int,900,2.2,0.5
+6,npc_dota_hero_drow_ranger,Drow Ranger,"['Carry', 'Disabler', 'Pusher']",2.5,625,1.7,Ranged,23,-3.0,36,25,200,0.25,15,75,0,25,17,True,1.4,2,285,agi,1250,1.9,0.7
+7,npc_dota_hero_earthshaker,Earthshaker,"['Support', 'Initiator', 'Disabler', 'Nuker']",1.4,150,1.7,Melee,12,0.0,37,27,200,1.0,16,75,0,25,22,True,1.8,2,310,str,0,3.7,0.9
+8,npc_dota_hero_juggernaut,Juggernaut,"['Carry', 'Pusher', 'Escape']",2.8,150,1.4,Melee,36,0.0,16,12,200,0.5,14,75,0,25,21,True,1.4,2,300,agi,0,2.2,0.6
+9,npc_dota_hero_mirana,Mirana,"['Carry', 'Support', 'Escape', 'Nuker', 'Disabler']",3.7,630,1.7,Ranged,18,-1.0,30,25,200,,19,75,0,25,18,True,1.9,2,290,agi,900,2.2,0.5
+10,npc_dota_hero_morphling,Morphling,"['Carry', 'Escape', 'Durable', 'Nuker', 'Disabler']",4.3,350,1.5,Ranged,24,-2.0,18,9,200,,13,75,0,25,20,True,1.1,0,280,agi,1300,3.0,0.6
+11,npc_dota_hero_nevermore,Shadow Fiend,"['Carry', 'Nuker']",3.3,500,1.7,Ranged,20,0.0,21,15,200,0.25,18,75,0,25,19,True,2.2,0,305,agi,1200,2.3,1.0
+12,npc_dota_hero_phantom_lancer,Phantom Lancer,"['Carry', 'Escape', 'Pusher', 'Nuker']",3.0,150,1.7,Melee,29,0.0,44,22,200,1.5,19,75,0,25,19,True,2.0,2,290,agi,900,2.0,0.6
+13,npc_dota_hero_puck,Puck,"['Initiator', 'Disabler', 'Escape', 'Nuker']",1.7,550,1.7,Ranged,22,-1.0,41,30,200,,23,75,0,25,17,True,3.1,2,290,int,900,2.2,0.5
+14,npc_dota_hero_pudge,Pudge,"['Disabler', 'Initiator', 'Durable', 'Nuker']",1.5,150,1.7,Melee,14,-2.0,46,40,200,,14,75,0,25,25,True,1.5,2,280,str,0,4.0,0.7
+15,npc_dota_hero_razor,Razor,"['Carry', 'Durable', 'Nuker', 'Pusher']",2.1,475,1.7,Ranged,22,-1.0,25,23,200,,21,75,0,25,22,True,1.8,0,285,agi,2000,2.6,0.5
+16,npc_dota_hero_sand_king,Sand King,"['Initiator', 'Disabler', 'Support', 'Nuker', 'Escape', 'Jungler']",1.8,150,1.7,Melee,19,-1.0,33,23,200,,19,75,0,25,22,True,1.8,6,290,str,900,3.2,0.5
+17,npc_dota_hero_storm_spirit,Storm Spirit,"['Carry', 'Escape', 'Nuker', 'Initiator', 'Disabler']",1.5,480,1.7,Ranged,22,2.0,36,26,200,,22,75,0,25,21,True,3.7,2,285,int,1100,2.0,0.8
+18,npc_dota_hero_sven,Sven,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",2.0,150,1.8,Melee,21,1.0,45,43,200,,16,75,0,25,23,True,1.3,2,310,str,0,3.2,0.6
+19,npc_dota_hero_tiny,Tiny,"['Carry', 'Nuker', 'Pusher', 'Initiator', 'Durable', 'Disabler']",0.0,150,1.7,Melee,0,0.0,50,44,200,,17,75,0,25,30,True,1.6,2,290,str,900,4.1,0.5
+20,npc_dota_hero_vengefulspirit,Vengeful Spirit,"['Support', 'Initiator', 'Disabler', 'Nuker', 'Escape']",3.8,400,1.7,Ranged,27,0.0,20,12,200,0.25,13,75,0,25,19,True,1.5,2,290,agi,1500,2.9,0.6
+21,npc_dota_hero_windrunner,Windranger,"['Carry', 'Support', 'Disabler', 'Escape', 'Nuker']",1.4,600,1.5,Ranged,17,-1.0,36,24,200,,18,75,0,25,17,True,3.0,2,290,int,1250,3.0,0.8
+22,npc_dota_hero_zuus,Zeus,['Nuker'],1.2,380,1.7,Ranged,11,0.0,41,33,200,,20,75,0,25,21,True,3.1,2,295,int,1100,2.1,0.6
+23,npc_dota_hero_kunkka,Kunkka,"['Carry', 'Support', 'Disabler', 'Initiator', 'Durable', 'Nuker']",1.3,150,1.7,Melee,14,1.0,36,26,200,,18,75,0,25,24,True,1.5,2,300,str,900,3.8,0.6
+25,npc_dota_hero_lina,Lina,"['Support', 'Carry', 'Nuker', 'Disabler']",1.5,670,1.6,Ranged,16,1.0,33,21,200,,30,75,0,25,20,True,3.7,2,290,int,1000,2.0,0.5
+26,npc_dota_hero_lion,Lion,"['Support', 'Disabler', 'Nuker', 'Initiator']",1.5,600,1.7,Ranged,15,-1.0,35,29,200,,18,75,0,25,18,True,3.5,2,290,int,900,2.2,0.5
+27,npc_dota_hero_shadow_shaman,Shadow Shaman,"['Support', 'Pusher', 'Disabler', 'Nuker', 'Initiator']",1.6,400,1.7,Ranged,16,1.0,59,52,200,,21,75,0,25,23,True,3.5,2,285,int,900,2.3,0.5
+28,npc_dota_hero_slardar,Slardar,"['Carry', 'Durable', 'Initiator', 'Disabler', 'Escape']",2.4,150,1.7,Melee,17,3.0,38,30,200,,15,75,0,25,21,True,1.5,0,290,str,0,3.6,0.5
+29,npc_dota_hero_tidehunter,Tidehunter,"['Initiator', 'Durable', 'Disabler', 'Nuker']",1.5,150,1.7,Melee,15,0.0,31,25,200,,16,75,0,25,22,True,1.7,2,300,str,900,3.5,0.5
+30,npc_dota_hero_witch_doctor,Witch Doctor,"['Support', 'Nuker', 'Disabler']",1.4,600,1.7,Ranged,13,-1.0,39,29,200,,22,75,0,25,18,True,3.3,2,300,int,1200,2.3,0.5
+31,npc_dota_hero_lich,Lich,"['Support', 'Nuker']",2.0,550,1.7,Ranged,15,-1.0,35,26,200,,20,75,0,25,20,True,4.1,2,295,int,900,2.1,0.5
+32,npc_dota_hero_riki,Riki,"['Carry', 'Escape', 'Disabler']",2.5,150,1.7,Melee,30,1.0,22,18,200,3.0,14,75,0,25,18,True,1.3,2,290,agi,900,1.9,0.6
+33,npc_dota_hero_enigma,Enigma,"['Disabler', 'Jungler', 'Initiator', 'Pusher']",1.0,500,1.7,Ranged,14,2.0,30,24,200,,18,75,0,25,21,True,3.9,0,290,int,900,2.5,0.5
+34,npc_dota_hero_tinker,Tinker,"['Carry', 'Nuker', 'Pusher']",1.2,500,1.7,Ranged,13,2.0,30,24,200,,28,75,0,25,17,True,2.5,2,290,int,900,2.5,0.6
+35,npc_dota_hero_sniper,Sniper,"['Carry', 'Nuker']",3.1,550,1.7,Ranged,21,-1.0,21,15,200,,15,75,0,25,19,True,2.6,2,285,agi,3000,1.7,0.7
+36,npc_dota_hero_necrolyte,Necrophos,"['Carry', 'Nuker', 'Durable', 'Disabler']",1.3,500,1.7,Ranged,12,1.0,30,26,200,,20,75,0,25,18,True,2.9,2,280,int,900,2.8,0.5
+37,npc_dota_hero_warlock,Warlock,"['Support', 'Initiator', 'Disabler']",1.0,600,1.7,Ranged,10,1.0,34,24,200,,25,75,0,25,26,True,3.1,2,290,int,1200,3.0,0.5
+38,npc_dota_hero_beastmaster,Beastmaster,"['Initiator', 'Disabler', 'Durable', 'Nuker']",1.6,150,1.7,Melee,18,-1.0,45,41,200,,16,75,0,25,23,True,1.9,2,305,str,0,2.9,0.5
+39,npc_dota_hero_queenofpain,Queen of Pain,"['Carry', 'Nuker', 'Escape']",2.2,550,1.5,Ranged,22,-1.0,28,20,200,,25,75,0,25,18,True,2.9,2,290,int,1500,2.3,0.5
+40,npc_dota_hero_venomancer,Venomancer,"['Support', 'Nuker', 'Initiator', 'Pusher', 'Disabler']",3.2,450,1.7,Ranged,26,0.0,18,16,200,,17,75,0,25,19,True,1.8,0,275,agi,900,2.1,0.5
+41,npc_dota_hero_faceless_void,Faceless Void,"['Carry', 'Initiator', 'Disabler', 'Escape', 'Durable']",3.2,150,1.7,Melee,23,0.0,39,33,200,0.5,15,75,0,25,24,True,1.5,2,300,agi,900,2.1,1.0
+42,npc_dota_hero_skeleton_king,Wraith King,"['Carry', 'Support', 'Durable', 'Disabler', 'Initiator']",1.7,150,1.7,Melee,18,-1.0,41,39,200,,18,75,0,25,22,True,1.6,2,315,str,0,3.2,0.5
+43,npc_dota_hero_death_prophet,Death Prophet,"['Carry', 'Pusher', 'Nuker', 'Disabler']",1.4,600,1.7,Ranged,14,0.0,41,29,200,,21,75,0,25,19,True,3.5,2,310,int,1000,3.1,0.5
+44,npc_dota_hero_phantom_assassin,Phantom Assassin,"['Carry', 'Escape']",3.4,150,1.7,Melee,23,1.0,25,23,200,0.25,15,75,0,25,21,True,1.4,2,305,agi,900,2.2,0.6
+45,npc_dota_hero_pugna,Pugna,"['Nuker', 'Pusher']",1.0,630,1.7,Ranged,16,0.0,27,19,200,,24,75,0,25,19,True,5.2,2,330,int,900,2.0,0.5
+46,npc_dota_hero_templar_assassin,Templar Assassin,"['Carry', 'Escape']",2.8,140,1.7,Ranged,23,1.0,36,30,200,0.25,20,75,0,25,19,True,2.0,2,305,agi,900,2.4,0.7
+47,npc_dota_hero_viper,Viper,"['Carry', 'Durable', 'Initiator', 'Disabler']",2.8,575,1.7,Ranged,21,-2.0,25,23,200,,15,75,0,25,21,True,1.8,0,275,agi,1200,2.4,0.5
+48,npc_dota_hero_luna,Luna,"['Carry', 'Nuker', 'Pusher']",3.6,330,1.7,Ranged,18,0.0,26,20,200,,16,75,0,25,16,True,1.9,2,325,agi,900,2.2,0.6
+49,npc_dota_hero_dragon_knight,Dragon Knight,"['Carry', 'Pusher', 'Durable', 'Disabler', 'Initiator', 'Nuker']",2.0,150,1.7,Melee,19,0.0,37,31,200,,15,75,0,25,19,True,1.7,2,295,str,900,3.6,0.6
+50,npc_dota_hero_dazzle,Dazzle,"['Support', 'Nuker', 'Disabler']",1.7,550,1.7,Ranged,21,-1.0,28,22,200,,25,75,0,25,18,True,3.7,2,305,int,1200,2.5,0.6
+51,npc_dota_hero_rattletrap,Clockwerk,"['Initiator', 'Disabler', 'Durable', 'Nuker']",2.3,150,1.7,Melee,13,-1.0,26,24,200,,17,75,0,25,26,True,1.3,2,310,str,900,3.7,0.6
+52,npc_dota_hero_leshrac,Leshrac,"['Carry', 'Support', 'Nuker', 'Pusher', 'Disabler']",2.3,600,1.7,Ranged,23,0.0,23,19,200,,22,75,0,25,18,True,3.5,4,325,int,900,2.3,0.5
+53,npc_dota_hero_furion,Nature's Prophet,"['Carry', 'Jungler', 'Pusher', 'Escape', 'Nuker']",3.3,600,1.7,Ranged,18,2.0,43,29,200,,23,75,0,25,21,True,3.3,2,290,int,1125,2.6,0.6
+54,npc_dota_hero_life_stealer,Lifestealer,"['Carry', 'Durable', 'Jungler', 'Escape', 'Disabler']",2.4,150,1.85,Melee,18,0.0,37,27,200,,15,75,0,25,25,True,1.8,2,325,str,900,2.9,1.0
+55,npc_dota_hero_dark_seer,Dark Seer,"['Initiator', 'Jungler', 'Escape', 'Disabler']",1.8,150,1.7,Melee,12,3.0,39,33,200,,21,75,0,25,24,True,3.1,2,300,int,900,3.1,0.6
+56,npc_dota_hero_clinkz,Clinkz,"['Carry', 'Escape', 'Pusher']",3.0,650,1.7,Ranged,22,0.0,21,15,200,0.25,18,75,0,25,12,True,1.7,2,290,agi,900,1.9,0.5
+57,npc_dota_hero_omniknight,Omniknight,"['Support', 'Durable', 'Nuker']",1.8,150,1.7,Melee,15,1.0,41,31,200,,15,75,0,25,22,True,1.8,2,300,str,900,3.6,0.6
+58,npc_dota_hero_enchantress,Enchantress,"['Support', 'Jungler', 'Pusher', 'Durable', 'Disabler']",1.8,575,1.7,Ranged,19,0.0,40,30,200,,17,75,0,25,16,True,3.6,4,315,int,900,1.7,0.5
+59,npc_dota_hero_huskar,Huskar,"['Carry', 'Durable', 'Initiator']",1.4,400,1.6,Ranged,15,-2.0,24,19,200,,18,75,0,25,21,True,1.5,2,290,str,1400,3.1,0.5
+60,npc_dota_hero_night_stalker,Night Stalker,"['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker']",2.3,150,1.7,Melee,18,2.0,42,38,200,1.75,13,75,0,25,23,True,1.6,2,290,str,900,3.2,0.5
+61,npc_dota_hero_broodmother,Broodmother,"['Carry', 'Pusher', 'Escape', 'Nuker']",2.8,150,1.7,Melee,15,0.0,32,26,200,,18,75,0,25,18,True,2.0,8,275,agi,900,2.8,0.5
+62,npc_dota_hero_bounty_hunter,Bounty Hunter,"['Escape', 'Nuker']",2.6,150,1.7,Melee,21,3.0,38,24,200,0.5,19,75,0,25,20,True,2.0,2,315,agi,900,2.5,0.6
+63,npc_dota_hero_weaver,Weaver,"['Carry', 'Escape']",3.6,425,1.8,Ranged,14,-1.0,46,36,200,1.0,13,75,0,25,16,True,1.8,4,275,agi,900,1.8,0.5
+64,npc_dota_hero_jakiro,Jakiro,"['Support', 'Nuker', 'Pusher', 'Disabler']",1.2,400,1.7,Ranged,10,1.0,35,27,200,,26,75,0,25,27,True,3.2,2,290,int,1100,2.8,0.5
+65,npc_dota_hero_batrider,Batrider,"['Initiator', 'Jungler', 'Disabler', 'Escape']",1.5,375,1.7,Ranged,15,0.0,20,16,200,1.75,22,75,0,25,28,True,2.9,2,290,int,900,2.9,1.0
+66,npc_dota_hero_chen,Chen,"['Support', 'Jungler', 'Pusher']",2.1,650,1.7,Ranged,15,-1.0,39,29,200,,19,75,0,25,25,True,3.2,2,305,int,1100,2.0,0.6
+67,npc_dota_hero_spectre,Spectre,"['Carry', 'Durable', 'Escape']",2.1,150,1.7,Melee,23,0.0,27,23,200,,16,75,0,25,23,True,1.9,0,290,agi,900,2.5,0.5
+68,npc_dota_hero_ancient_apparition,Ancient Apparition,"['Support', 'Disabler', 'Nuker']",2.2,675,1.7,Ranged,20,-1.0,31,21,200,,23,75,0,25,20,True,3.4,2,290,int,1250,1.9,0.6
+69,npc_dota_hero_doom_bringer,Doom,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",0.9,175,2.0,Melee,11,-1.0,43,27,200,,15,75,0,25,26,True,2.1,2,285,str,900,4.0,0.5
+70,npc_dota_hero_ursa,Ursa,"['Carry', 'Jungler', 'Durable', 'Disabler']",2.4,150,1.7,Melee,18,3.0,28,24,200,0.5,16,75,0,25,24,True,1.5,2,325,agi,900,3.3,0.5
+71,npc_dota_hero_spirit_breaker,Spirit Breaker,"['Carry', 'Initiator', 'Disabler', 'Durable', 'Escape']",1.7,150,1.9,Melee,17,2.0,41,31,200,0.75,14,75,0,25,29,True,1.8,2,285,str,900,3.1,0.5
+72,npc_dota_hero_gyrocopter,Gyrocopter,"['Carry', 'Nuker', 'Disabler']",3.6,365,1.7,Ranged,19,2.0,28,18,200,,19,75,0,25,22,True,2.1,2,315,agi,3000,2.3,0.6
+73,npc_dota_hero_alchemist,Alchemist,"['Carry', 'Support', 'Durable', 'Disabler', 'Initiator', 'Nuker']",1.2,150,1.7,Melee,22,-1.0,33,24,200,,25,75,0,25,25,True,1.8,2,305,str,900,2.4,0.6
+74,npc_dota_hero_invoker,Invoker,"['Carry', 'Nuker', 'Disabler', 'Escape', 'Pusher']",1.9,600,1.7,Ranged,14,-1.0,30,24,200,,14,75,0,25,18,True,4.6,2,280,int,900,2.4,0.5
+75,npc_dota_hero_silencer,Silencer,"['Carry', 'Support', 'Disabler', 'Initiator', 'Nuker']",3.0,600,1.7,Ranged,22,-1.0,32,18,200,,25,75,0,25,19,True,2.9,2,290,int,1000,2.7,0.6
+76,npc_dota_hero_obsidian_destroyer,Outworld Devourer,"['Carry', 'Nuker', 'Disabler']",2.0,450,1.7,Ranged,24,1.5,31,16,200,,28,75,0,25,19,True,3.5,4,310,int,900,2.6,0.5
+77,npc_dota_hero_lycan,Lycan,"['Carry', 'Pusher', 'Jungler', 'Durable', 'Escape']",1.0,150,1.7,Melee,16,-1.0,35,30,200,,17,75,0,25,25,True,1.4,2,315,str,900,3.4,0.5
+78,npc_dota_hero_brewmaster,Brewmaster,"['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker']",2.0,150,1.7,Melee,22,-2.0,36,29,200,0.5,14,75,0,25,23,True,1.6,2,305,str,900,3.7,0.6
+79,npc_dota_hero_shadow_demon,Shadow Demon,"['Support', 'Disabler', 'Initiator', 'Nuker']",2.2,500,1.7,Ranged,18,0.0,33,29,200,,21,75,0,25,23,True,3.1,2,290,int,900,2.6,0.6
+80,npc_dota_hero_lone_druid,Lone Druid,"['Carry', 'Pusher', 'Jungler', 'Durable']",2.8,550,1.7,Ranged,20,-2.0,22,18,200,0.25,13,75,0,25,18,True,1.4,2,325,agi,900,2.4,0.5
+81,npc_dota_hero_chaos_knight,Chaos Knight,"['Carry', 'Disabler', 'Durable', 'Pusher', 'Initiator']",2.1,150,1.7,Melee,14,1.0,59,29,200,,18,75,0,25,22,True,1.2,2,320,str,900,3.7,0.5
+82,npc_dota_hero_meepo,Meepo,"['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator', 'Pusher']",1.8,150,1.7,Melee,24,3.0,26,20,200,0.25,20,75,0,25,24,True,1.6,2,330,agi,900,1.8,0.65
+83,npc_dota_hero_treant,Treant Protector,"['Support', 'Initiator', 'Durable', 'Disabler', 'Escape']",2.0,150,1.9,Melee,15,-2.0,70,62,200,,20,75,0,25,25,True,1.8,2,270,str,900,4.1,0.5
+84,npc_dota_hero_ogre_magi,Ogre Magi,"['Support', 'Nuker', 'Disabler', 'Durable', 'Initiator']",1.6,150,1.7,Melee,14,6.0,49,43,200,3.25,15,75,0,25,25,True,2.3,2,290,int,900,3.5,0.6
+85,npc_dota_hero_undying,Undying,"['Support', 'Durable', 'Disabler', 'Nuker']",0.8,150,1.7,Melee,10,2.0,43,35,200,,27,75,0,25,22,True,2.8,2,300,str,900,2.8,0.6
+86,npc_dota_hero_rubick,Rubick,"['Support', 'Disabler', 'Nuker']",2.1,550,1.7,Ranged,19,-1.0,32,22,200,,25,75,0,25,21,True,3.1,2,290,int,1125,2.0,0.7
+87,npc_dota_hero_disruptor,Disruptor,"['Support', 'Disabler', 'Nuker', 'Initiator']",1.4,600,1.7,Ranged,15,0.0,33,29,200,,20,75,0,25,21,True,2.9,2,295,int,1200,2.4,0.5
+88,npc_dota_hero_nyx_assassin,Nyx Assassin,"['Disabler', 'Nuker', 'Initiator', 'Escape']",2.5,150,1.7,Melee,19,1.0,31,27,200,3.25,18,75,0,25,19,True,2.1,6,305,agi,900,2.5,0.5
+89,npc_dota_hero_naga_siren,Naga Siren,"['Carry', 'Support', 'Pusher', 'Disabler', 'Initiator', 'Escape']",3.7,150,1.7,Melee,21,3.0,25,23,200,1.5,21,75,0,25,22,True,2.0,0,320,agi,900,2.8,0.5
+90,npc_dota_hero_keeper_of_the_light,Keeper of the Light,"['Support', 'Nuker', 'Disabler', 'Jungler']",1.6,600,1.7,Ranged,15,-1.0,27,20,200,,23,75,0,25,16,True,3.2,2,330,int,900,2.3,0.5
+91,npc_dota_hero_wisp,Io,"['Support', 'Escape', 'Nuker']",1.6,575,1.7,Ranged,14,-2.0,31,22,200,,23,75,0,25,17,False,1.7,0,280,str,1200,2.5,0.7
+92,npc_dota_hero_visage,Visage,"['Support', 'Nuker', 'Durable', 'Disabler', 'Pusher']",1.3,600,1.7,Ranged,11,-2.0,33,23,200,,22,75,0,10,22,True,2.9,2,285,int,900,2.8,0.5
+93,npc_dota_hero_slark,Slark,"['Carry', 'Escape', 'Disabler', 'Nuker']",1.7,150,1.7,Melee,21,0.0,41,33,200,1.75,16,75,0,25,21,True,1.7,2,300,agi,0,1.9,0.7
+94,npc_dota_hero_medusa,Medusa,"['Carry', 'Disabler', 'Durable']",3.9,600,1.7,Ranged,22,-1.0,30,24,200,,19,75,0,25,15,True,2.6,0,275,agi,1200,1.3,0.5
+95,npc_dota_hero_troll_warlord,Troll Warlord,"['Carry', 'Pusher', 'Disabler', 'Durable']",2.9,500,1.7,Ranged,21,-1.0,35,23,200,0.25,13,75,0,25,21,True,1.0,2,290,agi,1200,2.5,0.5
+96,npc_dota_hero_centaur,Centaur Warrunner,"['Durable', 'Initiator', 'Disabler', 'Nuker', 'Escape']",1.0,150,1.7,Melee,15,-1.0,38,36,200,,15,75,0,25,27,True,1.6,4,300,str,900,4.6,0.5
+97,npc_dota_hero_magnataur,Magnus,"['Initiator', 'Disabler', 'Nuker', 'Escape']",2.5,150,1.8,Melee,15,1.0,44,32,200,0.5,19,75,0,25,23,True,1.7,4,305,str,900,3.5,0.8
+98,npc_dota_hero_shredder,Timbersaw,"['Nuker', 'Durable', 'Escape']",1.3,150,1.7,Melee,16,-2.0,30,26,200,,23,75,0,25,21,True,2.4,2,290,str,900,2.8,0.6
+99,npc_dota_hero_bristleback,Bristleback,"['Carry', 'Durable', 'Initiator', 'Nuker']",1.8,150,1.8,Melee,17,0.0,32,22,200,,14,75,0,25,22,True,2.8,2,290,str,900,2.9,1.0
+100,npc_dota_hero_tusk,Tusk,"['Initiator', 'Disabler', 'Nuker']",2.1,150,1.7,Melee,23,-1.0,31,27,200,,18,75,0,25,23,True,1.7,2,300,str,900,3.9,0.7
+101,npc_dota_hero_skywrath_mage,Skywrath Mage,"['Support', 'Nuker', 'Disabler']",0.8,600,1.7,Ranged,13,-2.0,24,14,200,,25,75,0,25,21,True,4.1,2,325,int,1000,2.0,0.5
+102,npc_dota_hero_abaddon,Abaddon,"['Support', 'Carry', 'Durable']",1.5,150,1.7,Melee,23,-2.0,42,32,200,,21,75,0,25,23,True,2.0,2,325,str,900,3.0,0.5
+103,npc_dota_hero_elder_titan,Elder Titan,"['Initiator', 'Disabler', 'Nuker', 'Durable']",1.8,150,1.7,Melee,14,0.0,33,23,200,,23,75,0,25,24,True,1.6,2,310,str,900,3.0,0.5
+104,npc_dota_hero_legion_commander,Legion Commander,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",1.7,150,1.7,Melee,18,-1.0,39,35,200,,20,75,0,25,26,True,2.2,2,330,str,900,3.3,0.5
+105,npc_dota_hero_techies,Techies,"['Nuker', 'Disabler']",1.3,700,1.7,Ranged,14,5.0,11,9,200,,22,75,0,25,19,True,3.3,6,310,int,900,2.5,0.5
+106,npc_dota_hero_ember_spirit,Ember Spirit,"['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator']",2.1,150,1.7,Melee,22,0.0,37,33,200,0.5,20,75,0,25,21,True,1.8,2,305,agi,900,2.6,0.5
+107,npc_dota_hero_earth_spirit,Earth Spirit,"['Nuker', 'Escape', 'Disabler', 'Initiator', 'Durable']",1.5,150,1.7,Melee,17,0.0,35,25,200,,18,75,0,25,21,True,2.1,2,290,str,900,4.4,0.6
+108,npc_dota_hero_abyssal_underlord,Underlord,"['Support', 'Nuker', 'Disabler', 'Durable', 'Escape']",1.3,150,1.7,Melee,12,1.0,43,37,200,,17,75,0,25,25,True,2.3,2,295,str,900,3.3,0.6
+109,npc_dota_hero_terrorblade,Terrorblade,"['Carry', 'Pusher', 'Nuker']",4.8,150,1.5,Melee,22,7.0,32,26,200,,19,75,0,25,15,True,1.6,2,310,agi,900,1.5,0.5
+110,npc_dota_hero_phoenix,Phoenix,"['Support', 'Nuker', 'Initiator', 'Escape', 'Disabler']",1.3,500,1.7,Ranged,12,-2.0,36,26,200,,18,75,0,25,19,True,1.8,2,280,str,1100,3.7,1.0
+111,npc_dota_hero_oracle,Oracle,"['Support', 'Nuker', 'Disabler', 'Escape']",1.7,620,1.4,Ranged,15,0.0,24,18,200,,21,75,0,25,20,True,4.0,2,300,int,900,2.4,0.7
+112,npc_dota_hero_winter_wyvern,Winter Wyvern,"['Support', 'Disabler', 'Nuker']",1.9,425,1.7,Ranged,16,-1.0,19,12,200,,26,75,0,25,26,True,3.6,2,285,int,700,2.6,0.5
+113,npc_dota_hero_arc_warden,Arc Warden,"['Carry', 'Escape', 'Nuker']",2.1,625,1.7,Ranged,15,-2.0,41,31,200,0.25,24,75,0,25,25,True,2.6,2,280,agi,900,3.0,0.6
+114,npc_dota_hero_monkey_king,Monkey King,"['Carry', 'Escape', 'Disabler', 'Initiator']",3.7,300,1.7,Melee,22,-3.0,35,29,200,1.5,20,75,0,25,19,True,1.8,2,305,agi,900,2.8,0.6
+119,npc_dota_hero_dark_willow,Dark Willow,"['Support', 'Nuker', 'Disabler', 'Escape']",1.6,475,1.3,Ranged,18,-1.0,35,27,200,,18,75,0,25,20,True,3.5,2,290,int,1200,2.0,0.7
+120,npc_dota_hero_pangolier,Pangolier,"['Carry', 'Nuker', 'Disabler', 'Durable', 'Escape', 'Initiator']",3.2,150,1.7,Melee,18,1.0,39,33,200,0.25,16,75,0,25,17,True,1.9,2,305,agi,900,2.5,1.0
+121,npc_dota_hero_grimstroke,Grimstroke,"['Support', 'Nuker', 'Disabler', 'Escape']",1.9,550,1.7,Ranged,18,0.0,31,27,200,,23,75,0,25,21,True,3.8,2,290,int,900,2.4,0.6
+129,npc_dota_hero_mars,Mars,"['Carry', 'Initiator', 'Disabler', 'Durable']",1.9,250,1.8,Melee,20,0.0,43,35,200,,17,75,0,25,23,False,1.4,2,310,str,900,3.6,0.8
